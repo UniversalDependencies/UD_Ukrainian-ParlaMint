@@ -130,7 +130,7 @@
 12	України	Україна	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	11	nmod	_	NER=I-MISC
 13	приймає	приймати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O|SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	15	punct	_	NER=O
-15	відповідно	відповідно	ADP	ADP	_	13	advmod	_	NER=O
+15	відповідно	відповідно	ADV	ADV	_	13	advmod	_	NER=O
 16	до	до	ADP	ADP	_	17	case	_	NER=O
 17	закону	закон	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl:arg	_	NER=O|SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	15	punct	_	NER=O
@@ -217,7 +217,7 @@
 # lang = uk									
 # sent_id = ParlaMint-UA_2022-02-24-m0.u2.p5.lang1.s1									
 # text = Відповідно до статті 189 Регламенту Верховної Ради України питання про затвердження Указу Президента України про введення воєнного стану в Україні або в окремих її місцевостях розглядається Верховною Радою без голосування щодо включення його до порядку денного за процедурою першого читання та прийняття в цілому.									
-1	Відповідно	відповідно	ADP	ADP	_	26	advmod	_	NER=O
+1	Відповідно	відповідно	ADV	ADV	_	26	advmod	_	NER=O
 2	до	до	ADP	ADP	_	3	case	_	NER=O
 3	статті	стаття	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obl:arg	_	NER=O
 4	189	189	NUM	NUM	_	3	amod	_	NER=O|Uninflect=Yes
@@ -411,7 +411,7 @@
 									
 # sent_id = ParlaMint-UA_2022-02-24-m0.u2.p11.lang1.s2									
 # text = Відповідно до 31 частини першої статті 85 Конституції України до повноважень Верховної Ради України належить затвердження протягом двох днів з моменту звернення Президента України Указу про введення воєнного стану в Україні або в окремих її місцевостях.									
-1	Відповідно	відповідно	ADP	ADP	_	15	advmod	_	NER=O
+1	Відповідно	відповідно	ADV	ADV	_	15	advmod	_	NER=O
 2	до	до	ADP	ADP	_	3	case	_	NER=O
 3	31	31	NUM	NUM	_	1	obl:arg	_	NER=O|Uninflect=Yes
 4	частини	частина	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	NER=O
@@ -555,7 +555,7 @@
 									
 # sent_id = ParlaMint-UA_2022-02-24-m0.u2.p13.lang1.s2									
 # text = Відповідно до статті 189 Регламенту Верховної Ради України питання про затвердження Указу Президента про введення воєнного стану в Україні або в окремих її місцевостях розглядається Верховною Радою без голосування щодо включення його до порядку денного та без комітету, за процедурою першого читання прийняття закону в цілому.									
-1	Відповідно	відповідно	ADP	ADP	_	25	advmod	_	NER=O
+1	Відповідно	відповідно	ADV	ADV	_	25	advmod	_	NER=O
 2	до	до	ADP	ADP	_	3	case	_	NER=O
 3	статті	стаття	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obl:arg	_	NER=O
 4	189	189	NUM	NUM	_	3	amod	_	NER=O|Uninflect=Yes
@@ -761,7 +761,7 @@
 17	на	на	ADP	ADP	_	18	case	_	NER=O
 18	якому	який	DET	DET	Case=Loc|Gender=Masc|PronType=Rel|Number=Sing	21	obl	_	NER=O
 19	терміново	терміново	ADV	ADV	Degree=Pos	21	advmod	_	NER=O
-20	було	бути	VERB	VERB	Aspect=Imp|Gender=Neut|Mood=Ind|Tense=Past|Number=Sing	21	aux	_	NER=O
+20	було	бути	AUX	AUX	Aspect=Imp|Gender=Neut|Mood=Ind|Tense=Past|Number=Sing	21	aux	_	NER=O
 21	прийнято	прийняти	VERB	VERB	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	10	acl:relcl	_	NER=O
 22	рішення	рішення	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	NER=O
 23	про	про	ADP	ADP	_	24	case	_	NER=O
@@ -790,7 +790,7 @@
 11	Президента	президент	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	NER=I-MISC|SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	16	punct	_	NER=O
 13	нам	ми	PRON	PRON	Animacy=Anim|Case=Dat|Number=Plur|Person=1|PronType=Prs	16	iobj	_	NER=O
-14	це	це	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	16	nsubj	_	NER=O
+14	це	це	PRON	PRON	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	16	nsubj	_	NER=O
 15	конче	конче	ADV	ADV	_	16	advmod	_	NER=O
 16	необхідно	необхідно	ADV	ADV	Degree=Pos|	4	parataxis	_	NER=O|SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	16	punct	_	NER=O
@@ -829,7 +829,7 @@
 4	і	і	CCONJ	CCONJ	_	8	cc	_	NER=O
 5	ми	ми	PRON	PRON	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	NER=O
 6	її	вона	PRON	PRON	Animacy=Anim,Inan|Case=Acc|Gender=Fem|Person=3|PronType=Prs|Number=Sing	8	obj	_	NER=O
-7	будемо	бути	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	8	aux	_	NER=O
+7	будемо	бути	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	8	aux	_	NER=O
 8	захищати	захищати	VERB	VERB	Aspect=Imp|VerbForm=Inf	3	conj	_	NER=O|SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	3	punct	_	NER=O
 									
@@ -965,7 +965,7 @@
 1	Шановні	шановний	ADJ	ADJ	Case=Voc|Degree=Pos|Number=Plur	2	amod	_	NER=O
 2	колеги	колега	NOUN	NOUN	Animacy=Anim|Case=Voc|Number=Plur|Gender=Masc	34	vocative	_	NER=O|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	_	NER=O
-4	відповідно	відповідно	ADP	ADP	_	34	advmod	_	NER=O
+4	відповідно	відповідно	ADV	ADV	_	34	advmod	_	NER=O
 5	до	до	ADP	ADP	_	6	case	_	NER=O
 6	пункту	пункт	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl:arg	_	NER=O
 7	31	31	NUM	NUM	_	6	amod	_	NER=O|Uninflect=Yes
@@ -1253,11 +1253,11 @@
 1	Шановні	шановний	ADJ	ADJ	Case=Voc|Degree=Pos|Number=Plur	2	amod	_	NER=O
 2	колеги	колега	NOUN	NOUN	Animacy=Anim|Case=Voc|Number=Plur|Gender=Masc	9	vocative	_	NER=O|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	_	NER=O
-4	відповідно	відповідно	ADP	ADP	_	9	parataxis	_	NER=O
+4	відповідно	відповідно	ADV	ADV	_	9	parataxis	_	NER=O
 5	до	до	ADP	ADP	_	6	case	_	NER=O
-6	цього	цей	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem|PronPos=Noun	4	obl:arg	_	NER=O|SpaceAfter=No
+6	цього	цей	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	4	obl:arg	_	NER=O|SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	4	punct	_	NER=O
-8	це	це	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem|PronPos=Noun	9	nsubj	_	NER=O
+8	це	це	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	NER=O
 9	розуміється	розумітися	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Reflex=Yes|Tense=Pres|VerbForm=Fin	0	root	_	NER=O|SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	17	punct	_	NER=O
 11	що	що	SCONJ	SCONJ	_	17	mark	_	NER=O
@@ -1325,7 +1325,7 @@
 7	необхідності	необхідність	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	NER=O
 8	ми	ми	PRON	PRON	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	NER=O
 9	маємо	мати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	NER=O
-10	бути	бути	VERB	VERB	Aspect=Imp|VerbForm=Inf	11	cop	_	NER=O
+10	бути	бути	AUX	AUX	Aspect=Imp|VerbForm=Inf	11	cop	_	NER=O
 11	готові	готовий	ADJ	ADJ	Case=Nom|Number=Plur	9	xcomp	_	NER=O
 12	негайно	негайно	ADV	ADV	_	13	advmod	_	NER=O
 13	зібратися	зібратися	VERB	VERB	Aspect=Perf|Reflex=Yes|VerbForm=Inf	11	xcomp	_	NER=O
