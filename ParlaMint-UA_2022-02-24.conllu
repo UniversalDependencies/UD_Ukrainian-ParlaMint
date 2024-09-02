@@ -199,7 +199,7 @@
 36	Верховної	верховний	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	37	amod	_	NER=B-ORG
 37	Ради	рада	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	NER=I-ORG
 38	України	Україна	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	37	nmod	_	NER=I-ORG
-39	проект	проект	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Ua_1992=Yes|Number=Sing	33	obj	_	NER=O
+39	проект	проект	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	obj	_	NER=O
 40	Закону	закон	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	nmod	_	NER=B-MISC
 41	про	про	ADP	ADP	_	42	case	_	NER=I-MISC
 42	затвердження	затвердження	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	40	nmod	_	NER=I-MISC
@@ -381,7 +381,7 @@
 3	зареєстровано	зареєструвати	VERB	VERB	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	0	root	_	NER=O
 4	282	282	NUM	NUM	_	6	nummod	_	NER=O|Uninflect=Yes
 5	народних	народний	ADJ	ADJ	Case=Acc|Degree=Pos|Number=Plur	6	amod	_	NER=O
-6	депутати	депутат	NOUN	NOUN	Animacy=Inan|Animacy=Anim|Case=Acc|Number=Plur|Gender=Masc	3	obj	_	NER=O|SpaceAfter=No
+6	депутати	депутат	NOUN	NOUN	Animacy=Anim|Case=Acc|Number=Plur|Gender=Masc|Typo=Yes	3	obj	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	3	punct	_	NER=O
 									
 # sent_id = ParlaMint-UA_2022-02-24-m0.u2.p10.lang1.s2									
@@ -539,7 +539,7 @@
 40	Верховної	верховний	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	41	amod	_	NER=B-ORG
 41	Ради	рада	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	NER=I-ORG
 42	України	Україна	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	41	nmod	_	NER=I-ORG
-43	проект	проект	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Ua_1992=Yes|Number=Sing	37	obj	_	NER=O
+43	проект	проект	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	37	obj	_	NER=O
 44	Закону	закон	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	NER=B-MISC
 45	про	про	ADP	ADP	_	46	case	_	NER=I-MISC
 46	затвердження	затвердження	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	44	nmod	_	NER=I-MISC
@@ -792,7 +792,7 @@
 13	нам	ми	PRON	PRON	Animacy=Anim|Case=Dat|Number=Plur|Person=1|PronType=Prs	16	iobj	_	NER=O
 14	це	це	PRON	PRON	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	16	nsubj	_	NER=O
 15	конче	конче	ADV	ADV	_	16	advmod	_	NER=O
-16	необхідно	необхідно	ADV	ADV	Degree=Pos|	4	parataxis	_	NER=O|SpaceAfter=No
+16	необхідно	необхідно	ADV	ADV	Degree=Pos	4	parataxis	_	NER=O|SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	16	punct	_	NER=O
 									
 # sent_id = ParlaMint-UA_2022-02-24-m0.u3.p5.lang1.s2									
@@ -1002,7 +1002,7 @@
 38	прийняття	прийняття	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	obl	_	NER=O
 39	в	в	ADP	ADP	_	40	case	_	NER=O
 40	цілому	цілий	ADJ	ADJ	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	38	nmod	_	NER=O
-41	проект	проект	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Ua_1992=Yes|Number=Sing	34	obj	_	NER=O
+41	проект	проект	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	34	obj	_	NER=O
 42	Закону	закон	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	NER=B-MISC
 43	України	Україна	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	42	nmod	_	NER=I-MISC
 44	(	(	PUNCT	PUNCT	_	46	punct	_	NER=O|SpaceAfter=No
