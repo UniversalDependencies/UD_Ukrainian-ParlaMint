@@ -37,7 +37,7 @@
 1	Друзі	друг	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Plur	5	vocative	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	NER=O
 3	ще	ще	ADV	ADV	_	5	advmod	_	NER=O
-4	одну	один	NUM	NUM	Case=Acc|Gender=Fem	5	nummod	_	NER=O
+4	одну	один	NUM	NUM	Case=Acc|Gender=Fem|Number=Sing	5	nummod	_	NER=O
 5	секундочку	секундочка	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	root	_	NER=O|SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	_	NER=O
 
@@ -66,7 +66,7 @@
 2	народні	народний	ADJ	ADJ	Case=Voc|Degree=Pos|Number=Plur	3	amod	_	NER=O
 3	депутати	депутат	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Plur	20	vocative	_	NER=O|SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	3	punct	_	NER=O
-5	відповідно	відповідно	ADV	ADV	_	20	advmod	_	NER=O
+5	відповідно	відповідно	ADV	ADV	Degree=Pos	20	advmod	_	NER=O
 6	до	до	ADP	ADP	_	7	case	_	NER=O
 7	пункту	пункт	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl:arg	_	NER=O
 8	31	31	NUM	NUM	_	7	amod	_	NER=O|Uninflect=Yes
@@ -121,7 +121,7 @@
 12	України	Україна	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	11	nmod	_	NER=I-MISC
 13	приймає	приймати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O|SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	15	punct	_	NER=O
-15	відповідно	відповідно	ADV	ADV	_	13	advmod	_	NER=O
+15	відповідно	відповідно	ADV	ADV	Degree=Pos	13	advmod	_	NER=O
 16	до	до	ADP	ADP	_	17	case	_	NER=O
 17	закону	закон	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl:arg	_	NER=O|SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	15	punct	_	NER=O
@@ -204,7 +204,7 @@
 
 # sent_id = sent-train-8
 # text = Відповідно до статті 189 Регламенту Верховної Ради України питання про затвердження Указу Президента України про введення воєнного стану в Україні або в окремих її місцевостях розглядається Верховною Радою без голосування щодо включення його до порядку денного за процедурою першого читання та прийняття в цілому.
-1	Відповідно	відповідно	ADV	ADV	_	26	advmod	_	NER=O
+1	Відповідно	відповідно	ADV	ADV	Degree=Pos	26	advmod	_	NER=O
 2	до	до	ADP	ADP	_	3	case	_	NER=O
 3	статті	стаття	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obl:arg	_	NER=O
 4	189	189	NUM	NUM	_	3	amod	_	NER=O|Uninflect=Yes
@@ -386,7 +386,7 @@
 
 # sent_id = sent-train-22
 # text = Відповідно до 31 частини першої статті 85 Конституції України до повноважень Верховної Ради України належить затвердження протягом двох днів з моменту звернення Президента України Указу про введення воєнного стану в Україні або в окремих її місцевостях.
-1	Відповідно	відповідно	ADV	ADV	_	15	advmod	_	NER=O
+1	Відповідно	відповідно	ADV	ADV	Degree=Pos	15	advmod	_	NER=O
 2	до	до	ADP	ADP	_	3	case	_	NER=O
 3	31	31	NUM	NUM	_	1	obl:arg	_	NER=O|Uninflect=Yes
 4	частини	частина	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	NER=O
@@ -439,7 +439,7 @@
 11	Президент	президент	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	NER=I-MISC
 12	України	Україна	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	11	nmod	_	NER=I-MISC
 13	приймає	приймати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
-14	відповідно	відповідно	ADV	ADV	_	13	advmod	_	NER=O
+14	відповідно	відповідно	ADV	ADV	Degree=Pos	13	advmod	_	NER=O
 15	до	до	ADP	ADP	_	16	case	_	NER=O
 16	закону	закон	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl:arg	_	NER=O
 17	рішення	рішення	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	NER=O
@@ -526,7 +526,7 @@
 
 # sent_id = sent-train-25
 # text = Відповідно до статті 189 Регламенту Верховної Ради України питання про затвердження Указу Президента про введення воєнного стану в Україні або в окремих її місцевостях розглядається Верховною Радою без голосування щодо включення його до порядку денного та без комітету, за процедурою першого читання прийняття закону в цілому.
-1	Відповідно	відповідно	ADV	ADV	_	25	advmod	_	NER=O
+1	Відповідно	відповідно	ADV	ADV	Degree=Pos	25	advmod	_	NER=O
 2	до	до	ADP	ADP	_	3	case	_	NER=O
 3	статті	стаття	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obl:arg	_	NER=O
 4	189	189	NUM	NUM	_	3	amod	_	NER=O|Uninflect=Yes
@@ -700,34 +700,32 @@
 # text = Сьогодні о 5:30 ранку Президент України зібрав засідання Ради нацбезпеки і оборони України, на якому терміново було прийнято рішення про введення військового стану в нашій країні.
 1	Сьогодні	сьогодні	ADV	ADV	_	9	advmod	_	NER=O
 2	о	о	ADP	ADP	_	3	case	_	NER=O
-3	5	5	NUM	NUM	_	9	obl	_	NER=O|SpaceAfter=No|Uninflect=Yes
-4	:	:	PUNCT	PUNCT	_	5	punct	_	NER=O|SpaceAfter=No
-5	30	30	NUM	NUM	_	3	compound	_	NER=O|Uninflect=Yes
-6	ранку	ранок	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	NER=O
-7	Президент	президент	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	NER=B-PER
-8	України	Україна	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	7	nmod	_	NER=I-PER
-9	зібрав	зібрати	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	0	root	_	NER=O
-10	засідання	засідання	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	NER=O
-11	Ради	рада	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	NER=B-ORG
-12	нацбезпеки	нацбезпека	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	NER=I-ORG
-13	і	і	CCONJ	CCONJ	_	14	cc	_	NER=I-ORG
-14	оборони	оборона	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	NER=I-ORG
-15	України	Україна	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	11	nmod	_	NER=I-ORG|SpaceAfter=No
-16	,	,	PUNCT	PUNCT	_	21	punct	_	NER=O
-17	на	на	ADP	ADP	_	18	case	_	NER=O
-18	якому	який	DET	DET	Case=Loc|Gender=Masc|Number=Sing|PronType=Rel	21	obl	_	NER=O
-19	терміново	терміново	ADV	ADV	Degree=Pos	21	advmod	_	NER=O
-20	було	бути	AUX	AUX	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past	21	aux	_	NER=O
-21	прийнято	прийняти	VERB	VERB	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	10	acl:relcl	_	NER=O
-22	рішення	рішення	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	NER=O
-23	про	про	ADP	ADP	_	24	case	_	NER=O
-24	введення	введення	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	nmod	_	NER=O
-25	військового	військовий	ADJ	ADJ	Case=Gen|Gender=Masc|Number=Sing	26	amod	_	NER=O
-26	стану	стан	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	NER=O
-27	в	в	ADP	ADP	_	29	case	_	NER=O
-28	нашій	наш	DET	DET	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	det	_	NER=O
-29	країні	країна	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	nmod	_	NER=O|SpaceAfter=No
-30	.	.	PUNCT	PUNCT	_	9	punct	_	NER=O
+3	5:30	5:30	NUM	NUM	_	9	obl	_	NER=O|SpaceAfter=No|Uninflect=Yes
+4	ранку	ранок	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	NER=O
+5	Президент	президент	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	NER=B-PER
+6	України	Україна	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	5	nmod	_	NER=I-PER
+7	зібрав	зібрати	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	0	root	_	NER=O
+8	засідання	засідання	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	NER=O
+9	Ради	рада	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	NER=B-ORG
+10	нацбезпеки	нацбезпека	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	NER=I-ORG
+11	і	і	CCONJ	CCONJ	_	12	cc	_	NER=I-ORG
+12	оборони	оборона	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	NER=I-ORG
+13	України	Україна	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	9	nmod	_	NER=I-ORG|SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	19	punct	_	NER=O
+15	на	на	ADP	ADP	_	16	case	_	NER=O
+16	якому	який	DET	DET	Case=Loc|Gender=Masc|Number=Sing|PronType=Rel	19	obl	_	NER=O
+17	терміново	терміново	ADV	ADV	Degree=Pos	19	advmod	_	NER=O
+18	було	бути	AUX	AUX	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past	19	aux	_	NER=O
+19	прийнято	прийняти	VERB	VERB	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	8	acl:relcl	_	NER=O
+20	рішення	рішення	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	NER=O
+21	про	про	ADP	ADP	_	22	case	_	NER=O
+22	введення	введення	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	nmod	_	NER=O
+23	військового	військовий	ADJ	ADJ	Case=Gen|Gender=Masc|Number=Sing	24	amod	_	NER=O
+24	стану	стан	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	NER=O
+25	в	в	ADP	ADP	_	27	case	_	NER=O
+26	нашій	наш	DET	DET	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	27	det	_	NER=O
+27	країні	країна	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	NER=O|SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	7	punct	_	NER=O
 
 # sent_id = sent-train-37
 # text = Я вас дуже прошу підтримати це рішення, цей Указ Президента, нам це конче необхідно.
@@ -908,7 +906,7 @@
 1	Шановні	шановний	ADJ	ADJ	Case=Voc|Degree=Pos|Number=Plur	2	amod	_	NER=O
 2	колеги	колега	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Plur	34	vocative	_	NER=O|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	_	NER=O
-4	відповідно	відповідно	ADV	ADV	_	34	advmod	_	NER=O
+4	відповідно	відповідно	ADV	ADV	Degree=Pos	34	advmod	_	NER=O
 5	до	до	ADP	ADP	_	6	case	_	NER=O
 6	пункту	пункт	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl:arg	_	NER=O
 7	31	31	NUM	NUM	_	6	amod	_	NER=O|Uninflect=Yes
@@ -1027,7 +1025,7 @@
 
 # sent_id = sent-train-57
 # text = Одну секундочку.
-1	Одну	один	NUM	NUM	Case=Acc|Gender=Fem	2	nummod	_	NER=O
+1	Одну	один	NUM	NUM	Case=Acc|Gender=Fem|Number=Sing	2	nummod	_	NER=O
 2	секундочку	секундочка	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	root	_	NER=O|SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	2	punct	_	NER=O
 
@@ -1168,7 +1166,7 @@
 1	Шановні	шановний	ADJ	ADJ	Case=Voc|Degree=Pos|Number=Plur	2	amod	_	NER=O
 2	колеги	колега	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Plur	9	vocative	_	NER=O|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	_	NER=O
-4	відповідно	відповідно	ADV	ADV	_	9	parataxis	_	NER=O
+4	відповідно	відповідно	ADV	ADV	Degree=Pos	9	parataxis	_	NER=O
 5	до	до	ADP	ADP	_	6	case	_	NER=O
 6	цього	цей	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	4	obl:arg	_	NER=O|SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	4	punct	_	NER=O
