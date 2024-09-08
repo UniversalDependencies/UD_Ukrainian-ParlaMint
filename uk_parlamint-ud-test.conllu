@@ -700,7 +700,7 @@
 # text = Сьогодні о 5:30 ранку Президент України зібрав засідання Ради нацбезпеки і оборони України, на якому терміново було прийнято рішення про введення військового стану в нашій країні.
 1	Сьогодні	сьогодні	ADV	ADV	_	9	advmod	_	NER=O
 2	о	о	ADP	ADP	_	3	case	_	NER=O
-3	5:30	5:30	NUM	NUM	_	9	obl	_	NER=O|SpaceAfter=No|Uninflect=Yes
+3	5:30	5:30	NUM	NUM	_	9	obl	_	NER=O|Uninflect=Yes
 4	ранку	ранок	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	NER=O
 5	Президент	президент	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	NER=B-PER
 6	України	Україна	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	5	nmod	_	NER=I-PER
