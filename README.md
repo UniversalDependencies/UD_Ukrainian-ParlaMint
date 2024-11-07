@@ -5,7 +5,7 @@ UD_Ukrainian-ParlaMint is a collection of Ukrainian parliamentary transcripts an
 
 # Introduction
 
-The corpus consists of Ukrainian parliamentary plenary sessions transcripts, with morphological and syntactic annotation checked manually. The corpus contains texts for 2022 from the Ukrainian ParlaMint corpus (Kopp et al., 2023). 
+The corpus consists of Ukrainian parliamentary plenary sessions transcripts, with morphological and syntactic annotation checked manually. The corpus contains texts for 2003-2022 from the Ukrainian ParlaMint corpus (Kopp et al., 2023). 
 
 # Acknowledgments
 
