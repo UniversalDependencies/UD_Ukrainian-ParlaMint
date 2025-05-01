@@ -30,7 +30,7 @@ Syntactic annotation of the corpus is implemented on the basis of UD_Ukrainian-I
 Data available since: UD v2.15
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: government legal; spoken
+Genre: government legal spoken
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
