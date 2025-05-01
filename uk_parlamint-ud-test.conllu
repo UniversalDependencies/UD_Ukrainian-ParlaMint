@@ -850,7 +850,7 @@
 1	Шановні	шановний	ADJ	ADJ	Case=Voc|Degree=Pos|Number=Plur	2	amod	_	_
 2	колеги	колега	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Fem,Masc|Number=Plur	9	vocative	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	_	_
-4	незважаючи	незважаючи	ADV	VERB	Polarity=Neg	7	case	_	_
+4	незважаючи	незважаючи	ADV	VERB	ExtPos=ADP|Polarity=Neg	7	case	_	_
 5	на	на	ADP	ADP	Case=Acc	4	fixed	_	_
 6	позитивні	позитивний	ADJ	ADJ	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
 7	законопроекти	законопроект	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
@@ -1231,7 +1231,7 @@
 1	Шановні	шановний	ADJ	ADJ	Case=Voc|Degree=Pos|Number=Plur	2	amod	_	_
 2	колеги	колега	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Fem,Masc|Number=Plur	34	vocative	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	_	_
-4	у	у	ADP	ADP	Case=Loc	7	case	_	_
+4	у	у	ADP	ADP	Case=Loc|ExtPos=ADP	7	case	_	_
 5	зв'язку	зв'язок	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	fixed	_	_
 6	з	з	ADP	ADP	Case=Ins	4	fixed	_	_
 7	тим	те	PRON	PRON	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	34	obl	_	SpaceAfter=No
@@ -3087,7 +3087,7 @@
 7	хочеш	хотіти	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	_	_
 8	–	–	PUNCT	PUNCT	_	11	punct	_	_
 9	так	так	SCONJ	CCONJ	_	11	mark	_	_
-10	і	і	PART	PART	_	9	fixed	_	_
+10	і	і	PART	PART	_	11	advmod:emph	_	_
 11	кваліфікуй	кваліфікувати	VERB	VERB	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	20	punct	_	_
 13	тому	тому	ADV	ADV	ExtPos=SCONJ	20	mark	_	_
@@ -6720,8 +6720,8 @@
 15	будинку	будинок	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
 16	–	–	PUNCT	PUNCT	_	17	punct	_	_
 17	ОСББ	ОСББ	NOUN	NOUN	Abbr=Yes|Animacy=Inan|Case=Nom|Gender=Neut|InflClass=Ind|Number=Sing	13	appos	_	_
-18	чи	чи	CCONJ	CCONJ	_	21	cc	_	_
-19	то	то	PART	PART	_	21	discourse	_	_
+18	чи	чи	CCONJ	CCONJ	ExtPos=CCONJ	21	cc	_	_
+19	то	то	PART	PART	_	18	fixed	_	_
 20	керуюча	керуючий	ADJ	ADJ	Aspect=Imp|BadStyle=Yes|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	21	amod	_	_
 21	компанія	компанія	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	_	5	punct	_	_
@@ -11793,8 +11793,8 @@
 27	країн	країна	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	PUNCT	_	33	punct	_	_
 29	яка	який	DET	DET	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	33	nsubj	_	_
-30	чи	чи	PART	PART	_	32	discourse	_	_
-31	не	не	PART	PART	Polarity=Neg	32	advmod:neg	_	_
+30	чи	чи	PART	PART	ExtPos=PART	32	discourse	_	_
+31	не	не	PART	PART	Polarity=Neg	30	fixed	_	_
 32	найчастіше	найчастіше	ADV	ADV	Degree=Sup	33	advmod	_	_
 33	продукує	продукувати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
 34	написання	написання	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	33	obj	_	_
@@ -12110,8 +12110,8 @@
 4	наш	наш	DET	DET	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
 5	український	український	ADJ	ADJ	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
 6	парламент	парламент	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-7	чи	чи	PART	PART	_	9	discourse	_	_
-8	не	не	PART	PART	Polarity=Neg	9	advmod:neg	_	_
+7	чи	чи	PART	PART	ExtPos=PART	9	discourse	_	_
+8	не	не	PART	PART	Polarity=Neg	7	fixed	_	_
 9	найперший	найперший	ADJ	ADJ	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	0	root	_	_
 10	в	в	ADP	ADP	Case=Loc	11	case	_	_
 11	світі	світ	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
