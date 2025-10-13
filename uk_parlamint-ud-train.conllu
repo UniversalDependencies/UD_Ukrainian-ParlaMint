@@ -3235,7 +3235,7 @@
 12	спортсмени	спортсмен	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
 13	повинні	повинний	ADJ	ADJ	Case=Nom|Number=Plur	9	acl	_	_
 14	мати	мати	VERB	VERB	Aspect=Imp|VerbForm=Inf	13	xcomp	_	_
-15	достатньо	достатньо	ADV	ADV	_	16	obj	_	_
+15	достатньо	достатньо	ADV	ADV	_	14	obj	_	_
 16	часу	час	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
 17	для	для	ADP	ADP	Case=Gen	18	case	_	_
 18	тренувань	тренування	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	_
@@ -38651,7 +38651,7 @@
 16	місяці	місяць	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	appos	_	_
 17	-	-	PUNCT	PUNCT	_	19	punct	_	_
 18	олімпійські	олімпійський	ADJ	ADJ	Case=Nom|Number=Plur	19	amod	_	_
-19	ігри	гра	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	appos	_	SpaceAfter=No
+19	ігри	гра	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	parataxis	_	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	22	punct	_	_
 21	у	у	ADP	ADP	Case=Loc	22	case	_	_
 22	вересні	вересень	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	orphan	_	_
@@ -45656,7 +45656,7 @@
 # sent_id = ParlaMint-UA_2003-10-14-m0.u73.p2.lang1.s2
 # text = Це що стосується ліцензії по вуглеводу.
 1	Це	це	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
-2	що	що	PRON	PRON	Animacy=Inan|Case=Nom|ExtPos=Adp|Gender=Neut|Number=Sing|PronType=Rel	4	case	_	_
+2	що	що	PRON	PRON	Animacy=Inan|Case=Nom|ExtPos=ADP|Gender=Neut|Number=Sing|PronType=Rel	4	case	_	_
 3	стосується	стосуватися	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Reflex=Yes|Tense=Pres|VerbForm=Fin	2	fixed	_	_
 4	ліцензії	ліцензія	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	root	_	_
 5	по	по	ADP	ADP	Case=Loc	6	case	_	_
@@ -46881,7 +46881,7 @@
 # text = Я, що стосується конкретної шахти, собі помітив і беру, з вашого дозволу, на контроль це питання.
 1	Я	я	PRON	PRON	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	6	punct	_	_
-3	що	що	PRON	SCONJ	Animacy=Inan|Case=Nom|ExtPos=Adp|Gender=Neut|Number=Sing|PronType=Rel	6	case	_	_
+3	що	що	PRON	SCONJ	Animacy=Inan|Case=Nom|ExtPos=ADP|Gender=Neut|Number=Sing|PronType=Rel	6	case	_	_
 4	стосується	стосуватися	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Reflex=Yes|Tense=Pres|VerbForm=Fin	3	fixed	_	_
 5	конкретної	конкретний	ADJ	ADJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 6	шахти	шахта	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
