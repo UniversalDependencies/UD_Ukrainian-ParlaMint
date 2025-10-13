@@ -6235,7 +6235,7 @@
 # text = Тому що коли тільки підпис лідера, не завжди можна розшифрувати, від якої це фракції.
 1	Тому	тому	ADV	ADV	ExtPos=SCONJ	10	mark	_	_
 2	що	що	SCONJ	SCONJ	_	1	fixed	_	_
-3	коли	коли	SCONJ	ADV	PronType=Rel	5	advmod	_	_
+3	коли	коли	SCONJ	ADV	PronType=Rel	5	mark	_	_
 4	тільки	тільки	PART	PART	_	5	advmod	_	_
 5	підпис	підпис	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	advcl	_	_
 6	лідера	лідер	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
