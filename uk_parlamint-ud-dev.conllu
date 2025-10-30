@@ -5364,7 +5364,7 @@
 6	насправді	насправді	ADV	ADV	_	11	advmod	_	_
 7	з	з	ADP	ADP	Case=Gen	11	case	_	_
 8	тих	той	DET	DET	Case=Gen|ExtPos=DET|Number=Plur|PronType=Dem	11	det	_	_
-9	самих	самий	DET	DET	Case=Gen|Number=Plur|PronType=Emp|Reflex=Yes	8	fixed	_	_
+9	самих	самий	DET	DET	Case=Gen|Number=Plur|PronType=Emp	8	fixed	_	_
 10	же	же	PART	PART	_	8	discourse	_	_
 11	причин	причина	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	14	punct	_	_
@@ -5622,7 +5622,7 @@
 # sent_id = ParlaMint-UA_2022-01-25-m0.u133.p1.lang1.s4
 # text = А сам же суддівський корпус має отримати незалежність і діяти самоврядно.
 1	А	а	CCONJ	CCONJ	_	6	cc	_	_
-2	сам	сам	DET	DET	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	5	det	_	_
+2	сам	сам	DET	DET	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	5	det	_	_
 3	же	же	PART	PART	_	2	discourse	_	_
 4	суддівський	суддівський	ADJ	ADJ	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
 5	корпус	корпус	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -6331,7 +6331,7 @@
 # WARNING: Dependency cycle detected: агресії(30) → агресії(30)
 1	Я	я	PRON	PRON	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	від	від	ADP	ADP	Case=Gen	4	case	_	_
-3	самого	самий	DET	DET	Case=Gen|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	4	det	_	_
+3	самого	самий	DET	DET	Case=Gen|Gender=Masc|Number=Sing|PronType=Emp	4	det	_	_
 4	початку	початок	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
 5	хочу	хотіти	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	заспокоїти	заспокоїти	VERB	VERB	Aspect=Perf|VerbForm=Inf	5	xcomp	_	SpaceAfter=No
@@ -11187,7 +11187,7 @@
 1	Давайте	давати	VERB	VERB	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	_
 2	не	не	PART	PART	Polarity=Neg	3	advmod:neg	_	_
 3	баламутити	баламутити	VERB	VERB	Aspect=Imp|VerbForm=Inf	1	xcomp	_	_
-4	самих	сам	DET	DET	Animacy=Anim|Case=Acc|Number=Plur|PronType=Emp|Reflex=Yes	5	det	_	_
+4	самих	сам	DET	DET	Animacy=Anim|Case=Acc|Number=Plur|PronType=Emp	5	det	_	_
 5	себе	себе	PRON	PRON	Case=Acc|PronType=Prs|Reflex=Yes	3	obj	_	_
 6	і	і	CCONJ	CCONJ	_	7	cc	_	_
 7	облишити	облишити	VERB	VERB	Aspect=Perf|VerbForm=Inf	3	conj	_	_

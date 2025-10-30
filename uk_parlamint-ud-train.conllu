@@ -9038,9 +9038,9 @@
 6	цей	цей	DET	DET	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	час	час	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
 8	стоїть	стояти	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
-9	один	один	DET	DET	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	8	obl	_	_
+9	один	один	PRON	DET	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	8	obl	_	_
 10	до	до	ADP	ADP	Case=Gen	11	case	_	_
-11	одного	один	DET	DET	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind	9	nmod	_	SpaceAfter=No
+11	одного	один	PRON	DET	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	13	punct	_	_
 13	плечем	плече	NOUN	VERB	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	_
 14	до	до	ADP	ADP	Case=Gen	15	case	_	_
@@ -18859,7 +18859,7 @@
 6	це	це	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	_
 7	предмет	предмет	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	ccomp	_	_
 8	розгляду	розгляд	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
-9	самої	самий	DET	DET	Case=Gen|Gender=Fem|Number=Sing|PronType=Prs|Reflex=Yes	10	det	_	_
+9	самої	самий	DET	DET	Case=Gen|Gender=Fem|Number=Sing|PronType=Emp	10	det	_	_
 10	комісії	комісія	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
@@ -19128,7 +19128,7 @@
 18	,	,	PUNCT	PUNCT	_	25	punct	_	_
 19	а	а	CCONJ	CCONJ	_	25	cc	_	_
 20	вже	вже	ADV	ADV	_	25	advmod	_	_
-21	сама	сам	DET	DET	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs|Reflex=Yes	24	det	_	_
+21	сама	сам	DET	DET	Case=Nom|Gender=Fem|Number=Sing|PronType=Emp	24	det	_	_
 22	ця	цей	DET	DET	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	24	det	_	_
 23	робоча	робочий	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	24	amod	_	_
 24	група	група	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
@@ -26012,7 +26012,7 @@
 2	,	,	PUNCT	PUNCT	_	7	punct	_	_
 3	щоби	щоби	SCONJ	SCONJ	_	7	mark	_	_
 4	ми	ми	PRON	PRON	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
-5	самі	сам	DET	DET	Case=Nom|Number=Plur|PronType=Prs|Reflex=Yes	7	obl	_	_
+5	самі	сам	DET	DET	Case=Nom|Number=Plur|PronType=Emp	7	obl	_	_
 6	не	не	PART	PART	Polarity=Neg	7	advmod:neg	_	_
 7	породжували	породжувати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	1	ccomp	_	_
 8	у	у	ADP	ADP	Case=Gen	9	case	_	_
@@ -27097,7 +27097,7 @@
 22	людей	людина	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	PUNCT	_	27	punct	_	_
 24	які	який	DET	DET	Case=Nom|Number=Plur|PronType=Rel	27	nsubj	_	_
-25	самі	сам	DET	DET	Case=Nom|Number=Plur|PronType=Prs|Reflex=Yes	27	obl	_	_
+25	самі	сам	DET	DET	Case=Nom|Number=Plur|PronType=Emp	27	obl	_	_
 26	собі	себе	PRON	PRON	Case=Dat|PronType=Prs|Reflex=Yes	27	iobj	_	_
 27	створили	створити	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
 28	робочі	робочий	ADJ	ADJ	Animacy=Inan|Case=Acc|Number=Plur	29	amod	_	_
@@ -28967,7 +28967,7 @@
 # text = Це є сама, що ні на є парламентська обструкція, тому що жодна постанова не набирає голоси.
 1	Це	це	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	_
 2	є	бути	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
-3	сама	сам	DET	DET	Case=Nom|ExtPos=DET|Gender=Fem|Number=Sing|PronType=Prs|Reflex=Yes	10	det	_	SpaceAfter=No
+3	сама	сам	DET	DET	Case=Nom|ExtPos=DET|Gender=Fem|Number=Sing|PronType=Emp	10	det	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	5	punct	_	_
 5	що	що	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	3	fixed	_	_
 6	ні	ні	PART	PART	Polarity=Neg	3	fixed	_	_
@@ -30202,7 +30202,7 @@
 12	,	,	PUNCT	PUNCT	_	18	punct	_	_
 13	що	що	SCONJ	SCONJ	_	18	mark	_	_
 14	і	і	PART	PART	_	15	advmod:emph	_	_
-15	самі	сам	DET	DET	Case=Nom|Number=Plur|PronType=Prs|Reflex=Yes	18	nsubj	_	_
+15	самі	сам	DET	DET	Case=Nom|Number=Plur|PronType=Emp	18	nsubj	_	_
 16	скоро	скоро	ADV	ADV	Degree=Pos	18	advmod	_	_
 17	не	не	PART	PART	Polarity=Neg	18	advmod:neg	_	_
 18	зможете	змогти	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	11	advcl	_	_
@@ -31143,7 +31143,7 @@
 29	з	з	ADP	ADP	Case=Gen	30	case	_	_
 30	прав	право	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	25	nmod	_	_
 31	людини	людина	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
-32	самої	самий	DET	DET	Case=Gen|Gender=Fem|Number=Sing|PronType=Rel	33	det	_	_
+32	самої	самий	DET	DET	Case=Gen|Gender=Fem|Number=Sing|PronType=Emp	33	det	_	_
 33	присяги	присяга	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
@@ -34859,7 +34859,7 @@
 39	,	,	PUNCT	PUNCT	_	37	punct	_	_
 40	напруга	напруга	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	41	nsubj	_	_
 41	спаде	спасти	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-42	сама	сам	PRON	DET	Case=Nom|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Prs|Reflex=Yes	41	advmod	_	_
+42	сама	сам	PRON	DET	Case=Nom|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Emp	41	advmod	_	_
 43	собою	себе	PRON	PRON	Case=Ins|PronType=Prs|Reflex=Yes	42	fixed	_	SpaceAfter=No
 44	.	.	PUNCT	PUNCT	_	41	punct	_	_
 
@@ -36916,7 +36916,7 @@
 28	здатні	здатний	ADJ	ADJ	Case=Nom|Number=Plur	13	parataxis	_	_
 29	захистити	захистити	VERB	VERB	Aspect=Perf|VerbForm=Inf	28	xcomp	_	_
 30	себе	себе	PRON	PRON	Case=Acc|PronType=Prs|Reflex=Yes	29	obj	_	_
-31	самі	сам	DET	DET	Case=Nom|Number=Plur|PronType=Prs|Reflex=Yes	29	advmod	_	SpaceAfter=No
+31	самі	сам	DET	DET	Case=Nom|Number=Plur|PronType=Emp	29	advmod	_	SpaceAfter=No
 32	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
 # sent_id = ParlaMint-UA_2022-01-25-m0.u83.p3.lang1.s2
@@ -40123,7 +40123,7 @@
 # sent_id = ParlaMint-UA_2003-10-14-m0.u50.p6.lang1.s3
 # text = Цим самим знищується навіть надія на перемогу, страждає спорт, страждає імідж України.
 1	Цим	це	PRON	DET	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	_
-2	самим	самий	DET	DET	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Emp	1	det	_	_
+2	самим	самий	DET	DET	Case=Ins|Gender=Neut|Number=Sing|PronType=Emp	1	det	_	_
 3	знищується	знищуватися	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Reflex=Yes|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	навіть	навіть	PART	PART	_	5	discourse	_	_
 5	надія	надія	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
@@ -40391,7 +40391,7 @@
 15	кордоном	кордон	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	PUNCT	_	19	punct	_	_
 17	тим	те	DET	DET	Case=Ins|ExtPos=ADV|Gender=Neut|Number=Sing|PronType=Dem	19	obl	_	_
-18	самим	самий	DET	DET	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Emp	17	fixed	_	_
+18	самим	самий	DET	DET	Case=Ins|Gender=Neut|Number=Sing|PronType=Emp	17	fixed	_	_
 19	зміцнюючи	зміцнювати	VERB	VERB	Aspect=Imp|Tense=Pres|VerbForm=Conv	2	advcl	_	_
 20	матеріальну	матеріальний	ADJ	ADJ	Case=Acc|Gender=Fem|Number=Sing	21	amod	_	_
 21	базу	база	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
@@ -43283,7 +43283,7 @@
 17	спорту	спорт	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	11	punct	_	_
 19	ми	ми	PRON	PRON	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	32	nsubj	_	_
-20	самі	сам	DET	DET	Case=Nom|Number=Plur|PronType=Prs|Reflex=Yes	19	det	_	_
+20	самі	сам	DET	DET	Case=Nom|Number=Plur|PronType=Emp	19	det	_	_
 21	насамперед	насамперед	ADV	ADV	_	19	advmod	_	_
 22	разом	разом	ADV	ADV	_	32	advmod	_	_
 23	з	з	ADP	ADP	Case=Ins	24	case	_	_
@@ -55937,7 +55937,7 @@
 16	вона	вона	PRON	PRON	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 17	на	на	ADP	ADP	Case=Acc	18	case	_	_
 18	сьогодні	сьогодні	ADV	ADV	_	20	obl	_	_
-19	сама	сам	DET	DET	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	20	amod	_	_
+19	сама	самий	DET	DET	Case=Nom|Gender=Fem|Number=Sing|PronType=Emp	20	amod	_	_
 20	нереформована	нереформований	ADJ	ADJ	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	parataxis	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
@@ -62627,7 +62627,7 @@
 7	,	,	PUNCT	PUNCT	_	59	punct	_	_
 8	що	що	SCONJ	SCONJ	_	59	mark	_	_
 9	з	з	ADP	ADP	Case=Gen	11	case	_	_
-10	самого	самий	DET	DET	Case=Gen|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	11	det	_	_
+10	самого	самий	DET	DET	Case=Gen|Gender=Masc|Number=Sing|PronType=Emp	11	det	_	_
 11	початку	початок	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	59	obl	_	_
 12	загострення	загострення	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
 13	ситуації	ситуація	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
@@ -69859,7 +69859,7 @@
 8	вже	вже	ADV	ADV	_	9	advmod	_	_
 9	сконцентровано	сконцентрувати	VERB	VERB	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	0	root	_	_
 10	38	38	NUM	NUM	Case=Acc|NumType=Card	11	nummod:gov	_	_
-11	тисяч	тисяча	NUM	NUM	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|NumType=Card	12	nummod:gov	_	_
+11	тисяч	тисяча	NOUN	NUM	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|NumType=Card	12	nummod:gov	_	_
 12	осіб	особа	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	15	punct	_	_
 14	761	761	NUM	NUM	Case=Acc|Gender=Fem|NumType=Card	15	nummod:gov	_	_
@@ -73632,7 +73632,7 @@
 # text = Те ж саме стосується і Севастополя .
 1	Те	те	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	ж	ж	PART	PART	_	1	discourse	_	_
-3	саме	самий	ADJ	PART	Case=Nom|Gender=Neut|Number=Sing	1	amod	_	_
+3	саме	самий	ADJ	PART	Case=Nom|Gender=Neut|Number=Sing|PronType=Emp	1	amod	_	_
 4	стосується	стосуватися	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Reflex=Yes|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	і	і	PART	PART	_	6	advmod:emph	_	_
 6	Севастополя	Севастополь	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Masc|NameType=Geo|Number=Sing	4	obl:arg	_	_
@@ -75505,7 +75505,7 @@
 1	Ми	ми	PRON	PRON	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	маємо	мати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	стати	стати	VERB	VERB	Aspect=Perf|VerbForm=Inf	2	xcomp	_	_
-4	самою	сам	DET	DET	Case=Ins|Gender=Fem|Number=Sing|PronType=Rel	5	amod	_	_
+4	самою	самий	DET	DET	Case=Ins|Gender=Fem|Number=Sing|PronType=Emp	5	amod	_	_
 5	мирною	мирний	ADJ	ADJ	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 6	нацією	нація	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
 7	на	на	ADP	ADP	Case=Loc	8	case	_	_
@@ -75897,7 +75897,7 @@
 1	Ми	ми	PRON	PRON	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	маємо	мати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	стати	стати	VERB	VERB	Aspect=Perf|VerbForm=Inf	2	xcomp	_	_
-4	самою	сам	DET	DET	Case=Ins|Gender=Fem|Number=Sing|PronType=Rel	5	amod	_	_
+4	самою	самий	DET	DET	Case=Ins|Gender=Fem|Number=Sing|PronType=Emp	5	amod	_	_
 5	мирною	мирний	ADJ	ADJ	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 6	нацією	нація	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
 7	на	на	ADP	ADP	Case=Loc	8	case	_	_
