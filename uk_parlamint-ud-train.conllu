@@ -73632,7 +73632,7 @@
 # text = Те ж саме стосується і Севастополя .
 1	Те	те	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	ж	ж	PART	PART	_	1	discourse	_	_
-3	саме	самий	ADJ	PART	Case=Nom|Gender=Neut|Number=Sing|PronType=Emp	1	amod	_	_
+3	саме	самий	DET	PART	Case=Nom|Gender=Neut|Number=Sing|PronType=Emp	1	amod	_	_
 4	стосується	стосуватися	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Reflex=Yes|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	і	і	PART	PART	_	6	advmod:emph	_	_
 6	Севастополя	Севастополь	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Masc|NameType=Geo|Number=Sing	4	obl:arg	_	_
