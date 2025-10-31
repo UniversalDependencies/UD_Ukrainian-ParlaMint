@@ -13046,7 +13046,7 @@
 30	голосування	голосування	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	obl	_	NER=O
 31	щодо	щодо	ADP	ADP	_	32	case	_	NER=O
 32	включення	включення	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	NER=O
-33	його	він	PRON	PRON	Animacy=Anim,Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nmod	_	NER=O
+33	його	він	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nmod	_	NER=O
 34	до	до	ADP	ADP	_	35	case	_	NER=O
 35	порядку	порядок	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	NER=O
 36	денного	денний	ADJ	ADJ	Case=Gen|Gender=Masc|Number=Sing	35	amod	_	NER=O
@@ -13383,7 +13383,7 @@
 29	голосування	голосування	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	NER=O
 30	щодо	щодо	ADP	ADP	_	31	case	_	NER=O
 31	включення	включення	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	NER=O
-32	його	він	PRON	PRON	Animacy=Anim,Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nmod	_	NER=O
+32	його	він	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nmod	_	NER=O
 33	до	до	ADP	ADP	_	34	case	_	NER=O
 34	порядку	порядок	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	NER=O
 35	денного	денний	ADJ	ADJ	Case=Gen|Gender=Masc|Number=Sing	34	amod	_	NER=O
@@ -13623,7 +13623,7 @@
 3	країна	країна	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER=O
 4	і	і	CCONJ	CCONJ	_	8	cc	_	NER=O
 5	ми	ми	PRON	PRON	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	NER=O
-6	її	вона	PRON	PRON	Animacy=Anim,Inan|Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	NER=O
+6	її	вона	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	NER=O
 7	будемо	бути	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	8	aux	_	NER=O
 8	захищати	захищати	VERB	VERB	Aspect=Imp|VerbForm=Inf	3	conj	_	NER=O|SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	3	punct	_	NER=O
@@ -14185,7 +14185,7 @@
 7	спрацювала	спрацювати	VERB	VERB	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	1	parataxis	_	NER=O
 8	картка	картка	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	NER=O|SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	11	punct	_	NER=O
-10	вона	вона	PRON	PRON	Animacy=Anim,Inan|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	NER=O
+10	вона	вона	PRON	PRON	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	NER=O
 11	проголосувала	проголосувати	VERB	VERB	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	7	parataxis	_	NER=O
 12	"	"	PUNCT	PUNCT	_	13	punct	_	NER=O|PunctType=Quot|SpaceAfter=No
 13	за	за	ADP	ADP	_	11	appos	_	NER=O|SpaceAfter=No
