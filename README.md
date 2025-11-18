@@ -12,6 +12,7 @@ For the corpus, we selected full transcripts of Verkhovna Rada plenary sessions 
 # Acknowledgments
 
 Syntactic annotation of the corpus is implemented on the basis of UD_Ukrainian-IU with manual correction. For morphological annotation, we used VESUM morphological dictionary (https://github.com/brown-uk/dict_uk/tree/master) and UD_Ukrainian-IU with manual correction.
+This work received support from the CA21167 COST action UniDive, funded by COST (European Cooperation in Science and Technology). 
 
 ## References
 
