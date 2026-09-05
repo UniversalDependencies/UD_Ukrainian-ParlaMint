@@ -17,9 +17,7 @@ This work was supported by COST Action CA21167 — Universality, diversity and i
 
 ## References
 
-* Kopp, Matyáš; Kryvenko, Anna and Rii, Andriana, 2023, Ukrainian parliamentary corpus ParlaMint-UA 4.0.1, Slovenian language resource repository CLARIN.SI, ISSN 2820-4042, http://hdl.handle.net/11356/1900.
-* Tomaž Erjavec, Maciej Ogrodniczuk, Petya Osenova, Nikola Ljubešić, Kiril Simov, Andrej Pančur, Michał Rudolf, Matyáš Kopp, Starkaður Barkarson Steinþór Steingrímsson, Çağrı Çöltekin, Jesse de Does, Katrien Depuydt, Tommaso Agnoloni, Giulia Venturi, María Calzada Pérez, Luciana D. de Macedo, Costanza Navarretta, Giancarlo Luxardo, Matthew Coole, Paul Rayson, Vaidas Morkevičius, Tomas Krilavičius, Roberts Darģis, Orsolya Ring, Ruben van Heusden, Maarten Marx, and Darja Fišer. 2022. The ParlaMint corpora of parliamentary proceedings. In “Language Resources and Evaluation”, https://doi.org/10.1007/s10579-021-09574-0
-
+* Maria Shvedova, Arsenii Lukashevskyi, and Andriy Rysin. 2025. Developing a Universal Dependencies Treebank for Ukrainian Parliamentary Speech. In Proceedings of the Fourth Ukrainian Natural Language Processing Workshop (UNLP 2025), pages 55–63, Vienna, Austria (online). Association for Computational Linguistics. https://aclanthology.org/2025.unlp-1.7/  
 
 # Changelog
 
