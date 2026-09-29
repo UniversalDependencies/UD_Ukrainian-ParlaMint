@@ -2401,7 +2401,7 @@
 5	закону	закон	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 6	не	не	PART	PART	Polarity=Neg	7	advmod:neg	_	_
 7	відповідає	відповідати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	принципу	принцип	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	_
+8	принципу	принцип	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	obl:arg	_	_
 9	юридичної	юридичний	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	10	amod	_	_
 10	визначеності	визначеність	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	14	punct	_	_
@@ -10254,7 +10254,7 @@
 21	які	який	DET	DET	Case=Nom|Number=Plur|PronType=Rel	25	nsubj	_	_
 22	реально	реально	ADV	ADV	Degree=Pos	25	advmod	_	_
 23	позашкільній	позашкільний	ADJ	ADJ	Case=Dat|Gender=Fem|Number=Sing	24	amod	_	_
-24	освіті	освіта	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	25	iobj	_	_
+24	освіті	освіта	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	25	obj	_	_
 25	допоможуть	допомогти	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
 26	,	,	PUNCT	PUNCT	_	30	punct	_	_
 27	а	а	CCONJ	CCONJ	_	30	cc	_	_
