@@ -92232,7 +92232,7 @@
 # sent_id = ParlaMint-UA_2004-11-27-m0.u74.p5.lang1.s7
 # text = Альтернативи цьому не існує, ніхто не може мати монополії на істину, адже українці живуть на Заході, на Сході, на Півночі і на Півдні України.
 1	Альтернативи	альтернатива	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	_
-2	цьому	це	PRON	PRON	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	2	nmod	_	_
+2	цьому	це	PRON	PRON	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	1	nmod	_	_
 3	не	не	PART	PART	Polarity=Neg	4	advmod:neg	_	_
 4	існує	існувати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	8	punct	_	_
