@@ -119,7 +119,7 @@
 3	нагадати	нагадати	VERB	VERB	Aspect=Perf|VerbForm=Inf	2	xcomp	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	12	punct	_	_
 5	що	що	SCONJ	SCONJ	_	12	mark	_	_
-6	ще	ще	ADV	ADV	_	7	advmod	_	_
+6	ще	ще	ADV	ADV	_	7	advmod:emph	_	_
 7	декілька	декілька	DET	DET	Case=Acc|NumType=Card|PronType=Ind	8	det:numgov	_	_
 8	років	рік	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
 9	тому	тому	ADV	ADV	_	8	advmod	_	_
@@ -160,7 +160,7 @@
 # sent_id = ParlaMint-UA_2022-01-25-m0.u186.p1.lang1.s6
 # text = Я ж запропонував 200 євро, щоб людина могла купити хоча б бюджетний смартфон за кордоном і при цьому не переплачувати.
 1	Я	я	PRON	PRON	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	ж	ж	PART	PART	_	3	discourse	_	_
+2	ж	ж	PART	PART	_	3	advmod:emph	_	_
 3	запропонував	запропонувати	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	200	200	NUM	NUM	Case=Acc|NumType=Card	5	nummod:gov	_	_
 5	євро	євро	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|InflClass=Ind|Number=Plur	3	obj	_	SpaceAfter=No
@@ -169,7 +169,7 @@
 8	людина	людина	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 9	могла	могти	VERB	VERB	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	3	advcl	_	_
 10	купити	купити	VERB	VERB	Aspect=Perf|VerbForm=Inf	9	xcomp	_	_
-11	хоча	хоча	PART	PART	ExtPos=ADV	14	discourse	_	_
+11	хоча	хоча	PART	PART	ExtPos=ADV	14	advmod:emph	_	_
 12	б	б	PART	PART	_	11	fixed	_	_
 13	бюджетний	бюджетний	ADJ	ADJ	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	amod	_	_
 14	смартфон	смартфон	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
@@ -226,7 +226,7 @@
 # text = З тієї ж причини правка була відхилена комітетом.
 1	З	з	ADP	ADP	Case=Gen	4	case	_	_
 2	тієї	той	DET	DET	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
-3	ж	ж	PART	PART	_	2	discourse	_	_
+3	ж	ж	PART	PART	_	2	advmod:emph	_	_
 4	причини	причина	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
 5	правка	правка	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 6	була	бути	AUX	AUX	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	7	cop	_	_
@@ -344,7 +344,7 @@
 17	,	,	PUNCT	PUNCT	_	18	punct	_	_
 18	7-а	7-й	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	16	parataxis	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	_	20	punct	_	_
-20	да	да	PART	INTJ	BadStyle=Yes	18	discourse	_	SpaceAfter=No
+20	да	да	PART	INTJ	BadStyle=Yes	18	parataxis	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = ParlaMint-UA_2022-01-25-m0.u189.p6.lang1.s2
@@ -382,7 +382,7 @@
 19	враховані	врахований	ADJ	ADJ	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	4	parataxis	_	_
 20	частково	частково	ADV	ADV	_	19	advmod	_	SpaceAfter=No
 21	,	,	PUNCT	PUNCT	_	23	punct	_	_
-22	просто	просто	PART	PART	_	23	discourse	_	_
+22	просто	просто	PART	PART	_	23	advmod:emph	_	_
 23	хочу	хотіти	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	conj	_	_
 24	пояснити	пояснити	VERB	VERB	Aspect=Perf|VerbForm=Inf	23	xcomp	_	_
 25	ситуацію	ситуація	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No
@@ -399,7 +399,7 @@
 
 # sent_id = ParlaMint-UA_2022-01-25-m0.u190.p1.lang1.s3
 # text = Всі, хто замовляє в інтернеті якісь товари з-за кордону, зараз отримують зиск від цього законопроекту.
-1	Всі	весь	DET	DET	Case=Nom|Number=Plur|PronType=Tot	13	nsubj	_	SpaceAfter=No
+1	Всі	весь	PRON	PRON	Case=Nom|Number=Plur|PronType=Tot	13	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	4	punct	_	_
 3	хто	хто	PRON	PRON	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	_
 4	замовляє	замовляти	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
@@ -464,7 +464,7 @@
 # sent_id = ParlaMint-UA_2022-01-25-m0.u190.p2.lang1.s1
 # text = Я просто хочу пояснити, чому цей законопроект так довго затягувався.
 1	Я	я	PRON	PRON	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	просто	просто	PART	PART	_	3	discourse	_	_
+2	просто	просто	PART	PART	_	3	advmod:emph	_	_
 3	хочу	хотіти	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	пояснити	пояснити	VERB	VERB	Aspect=Perf|VerbForm=Inf	3	xcomp	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	11	punct	_	_
@@ -574,7 +574,7 @@
 9	підтвердження	підтвердження	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl:arg	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	11	punct	_	_
 11	ви	ви	PRON	PRON	Animacy=Anim|Case=Nom|Number=Ptan|Person=2|Polite=Form|PronType=Prs	4	orphan	_	_
-12	просто	просто	PART	PART	_	11	discourse	_	SpaceAfter=No
+12	просто	просто	PART	PART	_	11	advmod:emph	_	SpaceAfter=No
 13	...	...	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = ParlaMint-UA_2022-01-25-m0.u191.p1.lang1.s2
@@ -930,7 +930,7 @@
 12	будь-якої	будь-який	DET	DET	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind	13	det	_	_
 13	вартості	вартість	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	17	punct	_	_
-15	навіть	навіть	PART	PART	_	17	discourse	_	_
+15	навіть	навіть	PART	PART	_	17	advmod:emph	_	_
 16	1	1	NUM	NUM	Case=Nom|Number=Plur|NumType=Card	17	nummod	_	_
 17	євро	євро	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|InflClass=Ind|Number=Sing	13	appos	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	2	punct	_	_
@@ -1024,10 +1024,10 @@
 7	правку	правка	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
 8	окремо	окремо	ADV	ADV	_	5	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	10	punct	_	_
-10	зважаючи	зважати	VERB	VERB	Aspect=Imp|Tense=Pres|VerbForm=Conv	5	advcl	_	_
-11	на	на	ADP	ADP	Case=Acc	13	case	_	_
+10	зважаючи	зважати	VERB	VERB	Aspect=Imp|ExtPos=ADP|Tense=Pres|VerbForm=Conv	13	case	_	_
+11	на	на	ADP	ADP	Case=Acc	10	fixed	_	_
 12	її	її	DET	DET	Case=Acc|Gender=Fem|InflClass=Ind|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
-13	контраверсійність	контраверсійність	NOUN	NOUN	Animacy=Inan|BadStyle=Yes|Case=Acc|Gender=Fem|Number=Sing	10	obl:arg	_	SpaceAfter=No
+13	контраверсійність	контраверсійність	NOUN	NOUN	Animacy=Inan|BadStyle=Yes|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	16	punct	_	_
 15	тому	тому	ADV	ADV	_	16	advmod	_	_
 16	прошу	просити	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	_
@@ -1249,7 +1249,7 @@
 19	закон	закон	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj:pass	_	_
 20	був	бути	AUX	AUX	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	21	cop	_	_
 21	прийнятий	прийнятий	ADJ	ADJ	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	16	acl	_	_
-22	саме	саме	PART	PART	_	21	discourse	_	_
+22	саме	саме	PART	PART	_	21	advmod:emph	_	_
 23	і	і	PART	CCONJ	_	24	advmod:emph	_	_
 24	виконав	виконати	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	21	conj	_	_
 25	ті	той	DET	DET	Animacy=Inan|Case=Acc|Number=Plur|PronType=Dem	26	det	_	_
@@ -1391,7 +1391,7 @@
 4	36-а	36-й	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	8	punct	_	_
 6	я	я	PRON	PRON	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-7	ж	ж	PART	PART	_	8	discourse	_	_
+7	ж	ж	PART	PART	_	8	advmod:emph	_	_
 8	сказав	сказати	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -1634,7 +1634,7 @@
 24	друге	друге	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obl	_	_
 25	і	і	CCONJ	CCONJ	_	28	cc	_	_
 26	комітет	комітет	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
-27	вже	вже	ADV	ADV	_	28	advmod	_	_
+27	вже	вже	ADV	ADV	_	28	advmod:emph	_	_
 28	прийме	прийняти	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	conj	_	_
 29	ту	той	DET	DET	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	30	det	_	_
 30	поправку	поправка	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No
@@ -1866,10 +1866,10 @@
 4	трибуни	трибуна	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
 5	голову	голова	NOUN	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
 6	Комітету	комітет	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
-7	з	з	ADP	ADP	Case=Gen	8	case	_	_
-8	питань	питання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+7	з	з	ADP	ADP	Case=Gen|ExtPos=ADP	10	case	_	_
+8	питань	питання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	fixed	_	_
 9	правоохоронної	правоохоронний	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	10	amod	_	_
-10	діяльності	діяльність	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	діяльності	діяльність	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
 11	Іонушаса	Іонушас	PROPN	PROPN	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing	5	appos	_	_
 12	Сергія	Сергій	PROPN	PROPN	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Giv|Number=Sing	11	flat:name	_	_
 13	Костянтиновича	Костянтинович	PROPN	PROPN	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Pat|Number=Sing	12	flat:name	_	SpaceAfter=No
@@ -1935,7 +1935,7 @@
 # lang = uk
 # sent_id = ParlaMint-UA_2022-01-25-m0.u197.p20.lang1.s1
 # text = А, перша, а вона врахована частково, одну секундочку.
-1	А	а	CCONJ	CCONJ	_	7	discourse	_	SpaceAfter=No
+1	А	а	CCONJ	CCONJ	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	3	punct	_	_
 3	перша	перший	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	7	dislocated	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	7	punct	_	_
@@ -2039,9 +2039,9 @@
 3	до	до	ADP	ADP	Case=Gen	4	case	_	_
 4	вас	ви	PRON	PRON	Animacy=Anim|Case=Gen|Number=Plur|Person=2|PronType=Prs	5	obl:arg	_	_
 5	звертаюся	звертатися	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Reflex=Yes|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	з	з	ADP	ADP	Case=Gen	7	case	_	_
-7	приводу	привід	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
-8	поправок	поправка	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+6	з	з	ADP	ADP	Case=Gen|ExtPos=ADP	8	case	_	_
+7	приводу	привід	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	fixed	_	_
+8	поправок	поправка	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	12	punct	_	_
 10	але	але	CCONJ	CCONJ	_	12	cc	_	_
 11	я	я	PRON	PRON	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
@@ -2065,7 +2065,7 @@
 6	здоров'я	здоров'я	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	13	punct	_	_
 8	я	я	PRON	PRON	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
-9	все	все	PART	PART	ExtPos=ADV	13	discourse	_	_
+9	все	все	PART	PART	ExtPos=ADV	13	advmod:emph	_	_
 10	ж	ж	PART	PART	_	9	fixed	_	_
 11	таки	таки	PART	PART	_	9	fixed	_	_
 12	та	той	DET	DET	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
@@ -2082,7 +2082,7 @@
 23	готувати	готувати	VERB	VERB	Aspect=Imp|VerbForm=Inf	22	xcomp	_	_
 24	професіонал	професіонал	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	SpaceAfter=No
 25	,	,	PUNCT	PUNCT	_	28	punct	_	_
-26	хоча	хоча	PART	PART	ExtPos=ADV	28	discourse	_	_
+26	хоча	хоча	PART	PART	ExtPos=ADV	28	advmod:emph	_	_
 27	б	б	PART	PART	_	26	fixed	_	_
 28	Мін'юст	мін'юст	NOUN	PROPN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	appos	_	SpaceAfter=No
 29	,	,	PUNCT	PUNCT	_	30	punct	_	_
@@ -2230,7 +2230,7 @@
 # sent_id = ParlaMint-UA_2022-01-25-m0.u198.p2.lang1.s5
 # text = Я просто вам хочу сказати, що на сьогоднішній день кримінальне законодавство повністю справляється з викликами, немає потреби в тому, щоб ухвалювати ці зміни до Кримінального кодексу.
 1	Я	я	PRON	PRON	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	просто	просто	PART	PART	_	4	discourse	_	_
+2	просто	просто	PART	PART	_	4	advmod:emph	_	_
 3	вам	ви	PRON	PRON	Animacy=Anim|Case=Dat|Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
 4	хочу	хотіти	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	сказати	сказати	VERB	VERB	Aspect=Perf|VerbForm=Inf	4	xcomp	_	SpaceAfter=No
@@ -2351,9 +2351,9 @@
 8	:	:	PUNCT	PUNCT	_	15	punct	_	_
 9	Національне	національний	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	10	amod	_	_
 10	агентство	агентство	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
-11	з	з	ADP	ADP	Case=Gen	12	case	_	_
-12	питань	питання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	_
-13	запобігання	запобігання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+11	з	з	ADP	ADP	Case=Gen|ExtPos=ADP	13	case	_	_
+12	питань	питання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	fixed	_	_
+13	запобігання	запобігання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
 14	корупції	корупція	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
 15	зазначає	зазначати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
 16	,	,	PUNCT	PUNCT	_	27	punct	_	_
@@ -2401,7 +2401,7 @@
 5	закону	закон	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 6	не	не	PART	PART	Polarity=Neg	7	advmod:neg	_	_
 7	відповідає	відповідати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	принципу	принцип	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	_
+8	принципу	принцип	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	obl:arg	_	_
 9	юридичної	юридичний	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	10	amod	_	_
 10	визначеності	визначеність	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	14	punct	_	_
@@ -2941,7 +2941,7 @@
 
 # sent_id = ParlaMint-UA_2022-01-25-m0.u202.p5.lang1.s2
 # text = А ви розумієте, що в базу заноситься інформація, яка зовсім не називається як відомості?
-1	А	а	PART	PART	_	3	discourse	_	_
+1	А	а	PART	PART	_	3	advmod:emph	_	_
 2	ви	ви	PRON	PRON	Animacy=Anim|Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
 3	розумієте	розуміти	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	8	punct	_	_
@@ -2998,7 +2998,7 @@
 11	на	на	ADP	ADP	Case=Acc	13	case	_	_
 12	даний	даний	ADJ	ADJ	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	amod	_	_
 13	час	час	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_
-14	от	от	PART	PART	_	16	discourse	_	_
+14	от	от	PART	PART	_	16	advmod:emph	_	_
 15	останні	останній	ADJ	ADJ	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
 16	публікації	публікація	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	acl:relcl	_	_
 17	були	бути	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	16	cop	_	_
@@ -3029,7 +3029,7 @@
 # text = Ну, невже політика повинна керувати законом?
 1	Ну	ну	PART	PART	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	_
-3	невже	невже	PART	ADV	_	5	discourse	_	_
+3	невже	невже	PART	ADV	_	5	advmod:emph	_	_
 4	політика	політика	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 5	повинна	повинний	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 6	керувати	керувати	VERB	VERB	Aspect=Imp|VerbForm=Inf	5	xcomp	_	_
@@ -3070,7 +3070,7 @@
 30	вже	вже	ADV	ADV	_	31	advmod	_	_
 31	існує	існувати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	SpaceAfter=No
 32	,	,	PUNCT	PUNCT	_	31	punct	_	_
-33	просто	просто	PART	PART	_	34	discourse	_	_
+33	просто	просто	PART	PART	_	34	advmod:emph	_	_
 34	назвати	назвати	VERB	VERB	Aspect=Perf|VerbForm=Inf	11	conj	_	_
 35	своїм	свій	DET	DET	Case=Ins|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	36	det	_	_
 36	іменем	ім'я	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	34	obl	_	SpaceAfter=No
@@ -3149,7 +3149,7 @@
 # lang = uk
 # sent_id = ParlaMint-UA_2022-01-25-m0.u202.p7.lang1.s1
 # text = А я пропонував своїм рішенням і своїми змінами до цього закону все-таки надати повноваження Кабінету Міністрів до уніфікованої статті, яка б внеслася не в той розділ по сильнодіючим.
-1	А	а	PART	CCONJ	_	3	discourse	_	_
+1	А	а	PART	CCONJ	_	3	advmod:emph	_	_
 2	я	я	PRON	PRON	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	пропонував	пропонувати	VERB	VERB	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	своїм	свій	DET	DET	Case=Ins|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_
@@ -3202,7 +3202,7 @@
 1	Ну	ну	PART	PART	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	_
 3	такого	таке	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
-4	ж	ж	PART	PART	_	6	discourse	_	_
+4	ж	ж	PART	PART	_	6	advmod:emph	_	_
 5	не	не	PART	PART	Polarity=Neg	6	advmod:neg	_	_
 6	буває	бувати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_
@@ -3339,7 +3339,7 @@
 
 # sent_id = ParlaMint-UA_2022-01-25-m0.u204.p1.lang1.s2
 # text = Просто ви іноді чуйте своїх колег.
-1	Просто	просто	PART	PART	_	4	discourse	_	_
+1	Просто	просто	PART	PART	_	4	advmod:emph	_	_
 2	ви	ви	PRON	PRON	Animacy=Anim|Case=Nom|Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_
 3	іноді	іноді	ADV	ADV	PronType=Ind	4	advmod	_	_
 4	чуйте	чути	VERB	VERB	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	_
@@ -3445,7 +3445,7 @@
 13	,	,	PUNCT	PUNCT	_	14	punct	_	_
 14	виклики	виклик	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	conj	_	_
 15	ковідних	ковідний	ADJ	ADJ	Case=Gen|Number=Plur	17	amod	_	_
-16	безпосередньо	безпосередньо	ADV	ADV	Degree=Pos	17	advmod	_	_
+16	безпосередньо	безпосередньо	ADV	ADV	Degree=Pos	17	advmod:emph	_	_
 17	питань	питання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	PUNCT	_	21	punct	_	_
 19	які	який	DET	DET	Case=Nom|Number=Plur|PronType=Rel	21	nsubj	_	_
@@ -3478,7 +3478,7 @@
 
 # sent_id = ParlaMint-UA_2022-01-25-m0.u204.p2.lang1.s4
 # text = Ось такі питання потрібно ставити в порядок денний.
-1	Ось	ось	PART	PART	_	2	discourse	_	_
+1	Ось	ось	PART	PART	_	3	expl	_	_
 2	такі	такий	DET	DET	Animacy=Inan|Case=Acc|Number=Plur|PronType=Dem	3	det	_	_
 3	питання	питання	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_
 4	потрібно	потрібно	ADV	ADV	Degree=Pos	0	root	_	_
@@ -3913,7 +3913,7 @@
 
 # sent_id = ParlaMint-UA_2022-01-25-m0.u208.p2.lang1.s3
 # text = Ось такі речі потрібно робити для ефективної боротьби і протидії COVID.
-1	Ось	ось	PART	PART	_	2	discourse	_	_
+1	Ось	ось	PART	PART	_	3	expl	_	_
 2	такі	такий	DET	DET	Animacy=Inan|Case=Acc|Number=Plur|PronType=Dem	3	det	_	_
 3	речі	річ	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
 4	потрібно	потрібно	ADV	ADV	Degree=Pos	0	root	_	_
@@ -4022,7 +4022,7 @@
 19	України	Україна	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	18	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	_	26	punct	_	_
 21	бо	бо	SCONJ	SCONJ	_	26	mark	_	_
-22	саме	саме	PART	PART	_	23	discourse	_	_
+22	саме	саме	PART	PART	_	23	advmod:emph	_	_
 23	Кабінет	кабінет	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
 24	Міністрів	міністр	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
 25	є	бути	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
@@ -4031,7 +4031,7 @@
 28	законопроекту	законопроект	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	PUNCT	_	26	punct	_	_
 30	провів	провести	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	15	advcl	_	_
-31	хоча	хоча	PART	PART	ExtPos=ADV	34	discourse	_	_
+31	хоча	хоча	PART	PART	ExtPos=ADV	34	advmod:emph	_	_
 32	би	би	PART	PART	_	31	fixed	_	_
 33	одну	один	NUM	NUM	Case=Acc|Gender=Fem|Number=Sing|NumType=Card	34	nummod	_	_
 34	нараду	нарада	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	obj	_	_
@@ -4304,7 +4304,7 @@
 # text = Після цього вже необхідно вводити відповідну кримінальну відповідальність за умисне підроблення.
 1	Після	після	ADP	ADP	Case=Gen	2	case	_	_
 2	цього	це	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	4	obl	_	_
-3	вже	вже	ADV	ADV	_	4	advmod	_	_
+3	вже	вже	ADV	ADV	_	4	advmod:emph	_	_
 4	необхідно	необхідно	ADV	ADV	Degree=Pos	0	root	_	_
 5	вводити	вводити	VERB	VERB	Aspect=Imp|VerbForm=Inf	4	csubj	_	_
 6	відповідну	відповідний	ADJ	ADJ	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
@@ -4387,7 +4387,7 @@
 1	Дякую	дякувати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	3	punct	_	_
 3	пане	пан	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	_
-4	Голово	голова	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+4	Голово	голова	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = ParlaMint-UA_2022-01-25-m0.u214.p1.lang1.s2
@@ -4413,9 +4413,9 @@
 7	як	як	SCONJ	SCONJ	_	28	mark	_	_
 8	комітет	комітет	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	13	punct	_	_
-10	до	до	ADP	ADP	Case=Gen	11	case	_	_
-11	складу	склад	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
-12	якого	який	DET	DET	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	11	nmod	_	_
+10	до	до	ADP	ADP	Case=Gen|ExtPos=ADP	12	case	_	_
+11	складу	склад	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	fixed	_	_
+12	якого	який	DET	DET	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	13	obl	_	_
 13	входять	входити	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
 14	більшість	більшість	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
 15	правників	правник	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
@@ -4463,7 +4463,7 @@
 21	підробним	підробний	ADJ	ADJ	Case=Ins|Gender=Masc|Number=Sing	22	amod	_	_
 22	документом	документ	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obl:arg	_	SpaceAfter=No
 23	,	,	PUNCT	PUNCT	_	30	punct	_	_
-24	навіть	навіть	PART	PART	_	30	discourse	_	_
+24	навіть	навіть	PART	PART	_	30	advmod:emph	_	_
 25	якщо	якщо	SCONJ	SCONJ	_	30	mark	_	_
 26	вони	вони	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	30	nsubj	_	_
 27	про	про	ADP	ADP	Case=Acc	28	case	_	_
@@ -5111,8 +5111,8 @@
 17	платників	платник	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
 18	податків	податок	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
 19	наших	наш	DET	DET	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	det	_	_
-20	просто	просто	ADV	PART	Degree=Pos	21	advmod	_	_
-21	так	так	ADV	ADV	PronType=Dem	13	advmod	_	SpaceAfter=No
+20	просто	просто	ADV	PART	Degree=Pos|ExtPos=ADV	13	advmod	_	_
+21	так	так	ADV	ADV	PronType=Dem	20	fixed	_	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	_	24	punct	_	_
 23	аби	аби	SCONJ	SCONJ	_	24	mark	_	_
 24	поговорити	поговорити	VERB	VERB	Aspect=Perf|VerbForm=Inf	20	advcl	_	SpaceAfter=No
@@ -5284,15 +5284,15 @@
 5	будь	бути	VERB	VERB	Aspect=Imp|ExtPos=INTJ|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	parataxis	_	_
 6	ласка	ласка	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	fixed	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	5	punct	_	_
-8	шлях	шлях	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	orphan	_	_
+8	шлях	шлях	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
 9	у	у	ADP	ADP	Case=Gen	11	case	_	_
 10	цього	цей	DET	DET	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
 11	законопроекту	законопроект	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
-12	тільки	тільки	PART	PART	_	13	orphan	_	_
+12	тільки	тільки	PART	PART	_	13	advmod:emph	_	_
 13	один	один	NUM	DET	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	3	parataxis	_	_
 14	–	–	PUNCT	PUNCT	_	13	punct	_	_
 15	його	він	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
-16	відхилити	відхилити	VERB	VERB	Aspect=Perf|VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+16	відхилити	відхилити	VERB	VERB	Aspect=Perf|VerbForm=Inf	13	csubj:outer	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # newpar id = ParlaMint-UA_2022-01-25-m0.u218.p5
@@ -5442,7 +5442,7 @@
 2	ця	цей	DET	DET	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	норма	норма	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 4	вводиться	вводитися	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Reflex=Yes|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	саме	саме	PART	PART	_	6	discourse	_	_
+5	саме	саме	PART	PART	_	6	advmod:emph	_	_
 6	тому	тому	ADV	ADV	_	4	advmod	_	_
 7	і	і	CCONJ	CCONJ	_	9	cc	_	_
 8	є	бути	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
@@ -5471,7 +5471,7 @@
 # sent_id = ParlaMint-UA_2022-01-25-m0.u220.p2.lang1.s3
 # text = І саме тому ця норма передбачає іншу відповідальність за підробку СOVID-сертифікатів, тому що ми виглядаємо не тільки внутри країни, а і за її межами дуже погано, коли в нас немає конкретної відповідальності за це суспільно небезпечне діяння.
 1	І	і	CCONJ	CCONJ	_	6	cc	_	_
-2	саме	саме	PART	PART	_	3	discourse	_	_
+2	саме	саме	PART	PART	_	3	advmod:emph	_	_
 3	тому	тому	ADV	ADV	_	6	advmod	_	_
 4	ця	цей	DET	DET	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	норма	норма	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -5994,7 +5994,7 @@
 13	цьому	цей	DET	DET	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	15	det	_	_
 14	пленарному	пленарний	ADJ	ADJ	Case=Loc|Gender=Neut|Number=Sing	15	amod	_	_
 15	засіданні	засідання	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	_
-16	саме	саме	PART	PART	_	17	discourse	_	_
+16	саме	саме	PART	PART	_	17	advmod:emph	_	_
 17	законопроекту	законопроект	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
 18	6103	6103	NUM	NUM	Case=Nom|NumType=Card	17	nummod	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	2	punct	_	_
@@ -6159,7 +6159,7 @@
 7	1060	1060	NUM	NUM	Case=Nom|NumType=Card	5	nummod	_	_
 8	набрав	набрати	VERB	VERB	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	2	ccomp	_	_
 9	чинності	чинність	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obj	_	_
-10	саме	саме	PART	PART	_	12	discourse	_	_
+10	саме	саме	PART	PART	_	12	advmod:emph	_	_
 11	з	з	ADP	ADP	Case=Gen	12	case	_	_
 12	1	1	ADJ	ADJ	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord	8	obl	_	_
 13	травня	травень	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
@@ -6310,9 +6310,9 @@
 7	голову	голова	NOUN	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	appos	_	_
 8	підкомітету	підкомітет	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 9	Комітету	комітет	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
-10	з	з	ADP	ADP	Case=Gen	11	case	_	_
-11	питань	питання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
-12	енергетики	енергетика	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+10	з	з	ADP	ADP	Case=Gen|ExtPos=ADP	12	case	_	_
+11	питань	питання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	fixed	_	_
+12	енергетики	енергетика	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
 13	та	та	CCONJ	CCONJ	_	15	cc	_	_
 14	житлово-комунальних	житлово-комунальний	ADJ	ADJ	Case=Gen|Number=Plur	15	amod	_	_
 15	послуг	послуга	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	conj	_	_
@@ -6340,7 +6340,7 @@
 3	,	,	PUNCT	PUNCT	_	5	punct	_	_
 4	шановний	шановний	ADJ	ADJ	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	пане	пан	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	_
-6	Голово	голова	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+6	Голово	голова	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	5	flat	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # newpar id = ParlaMint-UA_2022-01-25-m0.u224.p2
@@ -6354,9 +6354,9 @@
 5	Комітетом	комітет	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl:agent	_	_
 6	Верховної	верховний	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_
 7	Ради	рада	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
-8	з	з	ADP	ADP	Case=Gen	9	case	_	_
-9	питань	питання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
-10	енергетики	енергетика	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+8	з	з	ADP	ADP	Case=Gen|ExtPos=ADP	10	case	_	_
+9	питань	питання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	fixed	_	_
+10	енергетики	енергетика	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
 11	та	та	CCONJ	CCONJ	_	13	cc	_	_
 12	житлово-комунальних	житлово-комунальний	ADJ	ADJ	Case=Gen|Number=Plur	13	amod	_	_
 13	послуг	послуга	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	conj	_	_
@@ -6483,9 +6483,9 @@
 3	Комітетом	комітет	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl:agent	_	_
 4	Верховної	верховний	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	5	amod	_	_
 5	Ради	рада	NOUN	PROPN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
-6	з	з	ADP	ADP	Case=Gen	7	case	_	_
-7	питань	питання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
-8	енергетики	енергетика	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+6	з	з	ADP	ADP	Case=Gen|ExtPos=ADP	8	case	_	_
+7	питань	питання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	fixed	_	_
+8	енергетики	енергетика	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 9	рекомендовано	рекомендувати	VERB	VERB	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	0	root	_	_
 10	Верховній	верховний	ADJ	ADJ	Case=Dat|Gender=Fem|Number=Sing	11	amod	_	_
 11	Раді	рада	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	iobj	_	_
@@ -6732,9 +6732,9 @@
 27	орган	орган	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
 28	місцевого	місцевий	ADJ	ADJ	Case=Gen|Gender=Neut|Number=Sing	29	amod	_	_
 29	самоврядування	самоврядування	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
-30	на	на	ADP	ADP	Case=Loc	31	case	_	_
-31	базі	база	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	obl	_	_
-32	конкурсу	конкурс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+30	на	на	ADP	ADP	Case=Loc|ExtPos=ADP	32	case	_	_
+31	базі	база	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	30	fixed	_	_
+32	конкурсу	конкурс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
 33	.	.	PUNCT	PUNCT	_	26	punct	_	_
 
 # newpar id = ParlaMint-UA_2022-01-25-m0.u228.p2
@@ -6800,7 +6800,7 @@
 11	дня	день	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
 12	приходять	приходити	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 13	люди	людина	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
-14	саме	саме	PART	PART	_	17	discourse	_	_
+14	саме	саме	PART	PART	_	17	advmod:emph	_	_
 15	з	з	ADP	ADP	Case=Gen	17	case	_	_
 16	цього	цей	DET	DET	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	17	det	_	_
 17	питання	питання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
@@ -6905,7 +6905,7 @@
 4	зараз	зараз	ADV	ADV	PronType=Dem	8	advmod	_	_
 5	я	я	PRON	PRON	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 6	вам	ви	PRON	PRON	Animacy=Anim|Case=Dat|Number=Plur|Person=2|PronType=Prs	8	iobj	_	_
-7	просто	просто	PART	PART	_	8	discourse	_	_
+7	просто	просто	PART	PART	_	8	advmod:emph	_	_
 8	хочу	хотіти	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	пояснити	пояснити	VERB	VERB	Aspect=Perf|VerbForm=Inf	8	xcomp	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	16	punct	_	_
@@ -6922,12 +6922,12 @@
 21	повазі	повага	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_
 22	до	до	ADP	ADP	Case=Gen	23	case	_	_
 23	пані	пані	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Fem|InflClass=Ind|Number=Sing	21	nmod	_	_
-24	заступниці	заступниця	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	23	appos	_	_
+24	заступниці	заступниця	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	23	flat	_	_
 25	міністра	міністр	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	PUNCT	_	28	punct	_	_
 27	до	до	ADP	ADP	Case=Gen	28	case	_	_
 28	міністра	міністр	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	conj	_	_
-29	Чернишова	Чернишов	PROPN	PROPN	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing	28	appos	_	SpaceAfter=No
+29	Чернишова	Чернишов	PROPN	PROPN	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing	28	flat	_	SpaceAfter=No
 30	,	,	PUNCT	PUNCT	_	21	punct	_	_
 31	за	за	ADP	ADP	Case=Acc	33	case	_	_
 32	цей	цей	DET	DET	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	33	det	_	_
@@ -6997,7 +6997,7 @@
 31	і	і	CCONJ	CCONJ	_	32	cc	_	_
 32	модернізацію	модернізація	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	conj	_	_
 33	житла	житло	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	_
-34	саме	саме	PART	PART	_	36	discourse	_	_
+34	саме	саме	PART	PART	_	36	advmod:emph	_	_
 35	на	на	ADP	ADP	Case=Acc	36	case	_	_
 36	мешканців	мешканець	NOUN	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
 37	,	,	PUNCT	PUNCT	_	39	punct	_	_
@@ -7025,7 +7025,6 @@
 
 # sent_id = ParlaMint-UA_2022-01-25-m0.u230.p2.lang1.s2
 # text = Але треба сідати і спокійно переглядати ту хибну реформу, так звану ліберальну, яку зробили попередники, в тому числі і ваша перша пані міністерка, яку ви нам подарували в 19-му році, для того, щоб зрозуміти, як вийти на державну програму капітальних ремонтів, на державну програму модернізації.
-# WARNING: Dependency cycle detected: міністерка(26) → міністерка(26)
 1	Але	але	CCONJ	CCONJ	_	2	cc	_	_
 2	треба	треба	ADV	ADV	_	0	root	_	_
 3	сідати	сідати	VERB	VERB	Aspect=Imp|VerbForm=Inf	2	csubj	_	_
@@ -7051,7 +7050,7 @@
 23	ваша	ваш	DET	DET	Case=Nom|Gender=Fem|Number=Sing|Person=2|Poss=Yes|PronType=Prs	25	det	_	_
 24	перша	перший	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	25	amod	_	_
 25	пані	пані	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	17	conj	_	_
-26	міністерка	міністерка	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	25	appos	_	SpaceAfter=No
+26	міністерка	міністерка	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	25	flat	_	SpaceAfter=No
 27	,	,	PUNCT	PUNCT	_	31	punct	_	_
 28	яку	який	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	31	obj	_	_
 29	ви	ви	PRON	PRON	Animacy=Anim|Case=Nom|Number=Plur|Person=2|PronType=Prs	31	nsubj	_	_
@@ -7119,7 +7118,7 @@
 34	,	,	PUNCT	PUNCT	_	35	punct	_	_
 35	мабуть	мабуть	ADV	ADV	_	33	parataxis	_	SpaceAfter=No
 36	,	,	PUNCT	PUNCT	_	35	punct	_	_
-37	все	все	PART	PART	ExtPos=ADV	33	discourse	_	_
+37	все	все	PART	PART	ExtPos=ADV	33	advmod:emph	_	_
 38	ж	ж	PART	PART	_	37	fixed	_	_
 39	таки	таки	PART	PART	_	37	fixed	_	_
 40	відповідальними	відповідальний	ADJ	ADJ	Case=Ins|Degree=Pos|Number=Plur	33	obl:arg	_	_
@@ -7130,7 +7129,7 @@
 45	самоврядування	самоврядування	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	43	nmod	_	_
 46	за	за	ADP	ADP	Case=Acc	50	case	_	_
 47	той	той	DET	DET	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	50	det	_	_
-48	же	же	PART	PART	_	47	discourse	_	_
+48	же	же	PART	PART	_	47	advmod:emph	_	_
 49	житловий	житловий	ADJ	ADJ	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	50	amod	_	_
 50	фонд	фонд	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
 51	,	,	PUNCT	PUNCT	_	54	punct	_	_
@@ -7149,7 +7148,7 @@
 64	з	з	ADP	ADP	Case=Gen	65	case	_	_
 65	балансів	баланс	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	63	obl	_	_
 66	і	і	CCONJ	CCONJ	_	68	cc	_	_
-67	просто	просто	PART	PART	_	68	discourse	_	_
+67	просто	просто	PART	PART	_	68	advmod:emph	_	_
 68	скинути	скинути	VERB	VERB	Aspect=Perf|VerbForm=Inf	63	conj	_	_
 69	на	на	ADP	ADP	Case=Acc	73	case	_	_
 70	так	так	ADV	ADV	ExtPos=ADJ|PronType=Dem	73	amod	_	_
@@ -7268,7 +7267,7 @@
 # text = Шановний пане Голово, шановні народні депутати, особливо, шановні українці, котрі проживають в квартирах!
 1	Шановний	шановний	ADJ	ADJ	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	пане	пан	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	0	root	_	_
-3	Голово	голова	NOUN	PROPN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+3	Голово	голова	NOUN	PROPN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	2	flat	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	7	punct	_	_
 5	шановні	шановний	ADJ	ADJ	Case=Voc|Degree=Pos|Number=Plur	7	amod	_	_
 6	народні	народний	ADJ	ADJ	Case=Voc|Number=Plur	7	amod	_	_
@@ -7518,7 +7517,7 @@
 16	,	,	PUNCT	PUNCT	_	18	punct	_	_
 17	аби	аби	SCONJ	SCONJ	_	18	mark	_	_
 18	економити	економити	VERB	VERB	Aspect=Imp|VerbForm=Inf	15	acl	_	_
-19	знову	знову	ADV	ADV	ExtPos=ADV	18	discourse	_	_
+19	знову	знову	ADV	ADV	ExtPos=ADV	18	advmod:emph	_	_
 20	ж	ж	PART	PART	_	19	fixed	_	_
 21	таки	таки	PART	PART	_	19	fixed	_	_
 22	свої	свій	DET	DET	Animacy=Inan|Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	24	det	_	_
@@ -7596,7 +7595,7 @@
 2	,	,	PUNCT	PUNCT	_	4	punct	_	_
 3	шановний	шановний	ADJ	ADJ	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	пане	пан	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	_
-5	Голово	голова	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+5	Голово	голова	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # newpar id = ParlaMint-UA_2022-01-25-m0.u236.p2
@@ -7717,7 +7716,7 @@
 2	нагадаю	нагадати	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	4	punct	_	_
 4	обіцяли	обіцяти	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	2	parataxis	_	_
-5	ж	ж	PART	PART	_	4	discourse	_	_
+5	ж	ж	PART	PART	_	4	advmod:emph	_	_
 6	вдвічі	вдвічі	ADV	ADV	_	7	advmod	_	_
 7	зменшити	зменшити	VERB	VERB	Aspect=Perf|VerbForm=Inf	4	xcomp	_	_
 8	тарифи	тариф	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
@@ -7818,7 +7817,7 @@
 
 # sent_id = ParlaMint-UA_2022-01-25-m0.u236.p5.lang1.s4
 # text = Ось як у нас не змінюються тарифи і нарахування за них на житлово-комунальні послуги.
-1	Ось	ось	PART	PART	_	6	discourse	_	_
+1	Ось	ось	PART	PART	_	6	expl	_	_
 2	як	як	ADV	ADV	PronType=Rel	6	advmod	_	_
 3	у	у	ADP	ADP	Case=Gen	4	case	_	_
 4	нас	ми	PRON	PRON	Animacy=Anim|Case=Gen|Number=Plur|Person=1|PronType=Prs	6	obl	_	_
@@ -7873,7 +7872,7 @@
 
 # sent_id = ParlaMint-UA_2022-01-25-m0.u236.p6.lang1.s3
 # text = Ось як у нас не змінюється платіжка, ось що відбувається у політиці тарифоутворення.
-1	Ось	ось	PART	PART	_	6	discourse	_	_
+1	Ось	ось	PART	PART	_	6	expl	_	_
 2	як	як	ADV	ADV	PronType=Rel	6	advmod	_	_
 3	у	у	ADP	ADP	Case=Gen	4	case	_	_
 4	нас	ми	PRON	PRON	Animacy=Anim|Case=Gen|Number=Plur|Person=1|PronType=Prs	6	obl	_	_
@@ -7881,7 +7880,7 @@
 6	змінюється	змінюватися	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Reflex=Yes|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	платіжка	платіжка	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	11	punct	_	_
-9	ось	ось	PART	PART	_	11	discourse	_	_
+9	ось	ось	PART	PART	_	11	expl	_	_
 10	що	що	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	11	nsubj	_	_
 11	відбувається	відбуватися	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Reflex=Yes|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
 12	у	у	ADP	ADP	Case=Loc	13	case	_	_
@@ -7946,9 +7945,9 @@
 51	тієї	той	DET	DET	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	53	det	_	_
 52	справедливої	справедливий	ADJ	ADJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	53	amod	_	_
 53	ціни	ціна	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	50	nmod	_	_
-54	з	з	ADP	ADP	Case=Ins	55	case	_	_
-55	урахуванням	урахування	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	50	nmod	_	_
-56	ціни	ціна	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	55	nmod	_	_
+54	з	з	ADP	ADP	Case=Ins|ExtPos=ADP	56	case	_	_
+55	урахуванням	урахування	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	54	fixed	_	_
+56	ціни	ціна	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	50	nmod	_	_
 57	на	на	ADP	ADP	Case=Acc	58	case	_	_
 58	газ	газ	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	56	nmod	_	_
 59	власного	власний	ADJ	ADJ	Case=Gen|Gender=Masc|Number=Sing	60	amod	_	_
@@ -8014,7 +8013,7 @@
 
 # sent_id = ParlaMint-UA_2022-01-25-m0.u237.p2.lang1.s2
 # text = А, бачу, ще Анна Скороход, і після цього будемо переходити до голосування.
-1	А	а	CCONJ	CCONJ	_	6	discourse	_	SpaceAfter=No
+1	А	а	CCONJ	CCONJ	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	3	punct	_	_
 3	бачу	бачити	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	3	punct	_	_
@@ -8166,7 +8165,7 @@
 # sent_id = ParlaMint-UA_2022-01-25-m0.u238.p2.lang1.s3
 # text = Тому в першу чергу мали би розглядатися ці закони.
 1	Тому	тому	ADV	ADV	_	5	advmod	_	_
-2	в	в	ADP	ADP	Case=Acc|ExtPos=ADV	5	discourse	_	_
+2	в	в	ADP	ADP	Case=Acc|ExtPos=ADV	5	advmod:emph	_	_
 3	першу	перший	ADJ	ADJ	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	2	fixed	_	_
 4	чергу	черга	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	fixed	_	_
 5	мали	мати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -8250,7 +8249,7 @@
 21	,	,	PUNCT	PUNCT	_	25	punct	_	_
 22	і	і	CCONJ	CCONJ	_	25	cc	_	_
 23	він	він	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
-24	просто	просто	PART	PART	_	25	advmod	_	_
+24	просто	просто	PART	PART	_	25	advmod:emph	_	_
 25	пролонгує	пролонгувати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
 26	термін	термін	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
 27	на	на	ADP	ADP	Case=Acc	28	case	_	_
@@ -8294,7 +8293,7 @@
 8	колега	колега	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	10	punct	_	_
 10	він	він	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	parataxis	_	_
-11	просто	просто	PART	PART	_	10	orphan	_	_
+11	просто	просто	PART	PART	_	10	advmod:emph	_	_
 12	таким	такий	DET	DET	Case=Ins|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Dem	10	orphan	_	_
 13	чином	чин	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	fixed	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	18	punct	_	_
@@ -8809,7 +8808,7 @@
 
 # sent_id = ParlaMint-UA_2022-01-25-m0.u242.p3.lang1.s2
 # text = В першу чергу, це формування лідера, патріота, успішної конкурентоспроможної особистості.
-1	В	в	ADP	ADP	Case=Acc|ExtPos=ADV	6	discourse	_	_
+1	В	в	ADP	ADP	Case=Acc|ExtPos=ADV	6	advmod:emph	_	_
 2	першу	перший	ADJ	ADJ	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	1	fixed	_	_
 3	чергу	черга	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	3	punct	_	_
@@ -8826,7 +8825,6 @@
 
 # sent_id = ParlaMint-UA_2022-01-25-m0.u242.p3.lang1.s3
 # text = Зазначене, а також потреба узгодження термінології з Законом України "Про освіту" урядом внесено на розгляд Верховної Ради України проект Закону України про внесення змін до деяких законів України.
-# WARNING: Dependency cycle detected: Зазначене(1) → внесено(16) → урядом(15) → Зазначене(1)
 1	Зазначене	зазначене	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	orphan	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	5	punct	_	_
 3	а	а	CCONJ	CCONJ	ExtPos=CCONJ	5	cc	_	_
@@ -8952,10 +8950,10 @@
 19	,	,	PUNCT	PUNCT	_	20	punct	_	_
 20	розмежування	розмежування	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	conj	_	_
 21	повноважень	повноваження	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	_
-22	у	у	ADP	ADP	Case=Loc	23	case	_	_
-23	сфері	сфера	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	nmod	_	_
+22	у	у	ADP	ADP	Case=Loc|ExtPos=ADP	25	case	_	_
+23	сфері	сфера	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	fixed	_	_
 24	позашкільної	позашкільний	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	25	amod	_	_
-25	освіти	освіта	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	освіти	освіта	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
 26	між	між	ADP	ADP	Case=Ins	27	case	_	_
 27	органами	орган	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	20	nmod	_	_
 28	виконавчої	виконавчий	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	29	amod	_	_
@@ -9013,10 +9011,10 @@
 8	обговорення	обговорення	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl:arg	_	_
 9	та	та	CCONJ	CCONJ	_	10	cc	_	_
 10	допрацьований	допрацьований	ADJ	ADJ	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	conj	_	_
-11	за	за	ADP	ADP	Case=Ins	12	case	_	_
-12	участю	участь	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+11	за	за	ADP	ADP	Case=Ins|ExtPos=ADP	14	case	_	_
+12	участю	участь	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	fixed	_	_
 13	міжнародної	міжнародний	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	14	amod	_	_
-14	асоціації	асоціація	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	асоціації	асоціація	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
 15	позашкільної	позашкільний	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	16	amod	_	_
 16	освіти	освіта	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -9076,9 +9074,9 @@
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_
 7	голову	голова	NOUN	NOUN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	appos	_	_
 8	Комітету	комітет	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
-9	з	з	ADP	ADP	Case=Gen	10	case	_	_
-10	питань	питання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
-11	освіти	освіта	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+9	з	з	ADP	ADP	Case=Gen|ExtPos=ADP	11	case	_	_
+10	питань	питання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	fixed	_	_
+11	освіти	освіта	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	13	punct	_	_
 13	науки	наука	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	conj	_	_
 14	та	та	CCONJ	CCONJ	_	15	cc	_	_
@@ -9325,7 +9323,7 @@
 # text = Шановний пане Голово, шановні колеги, удосконалюючи правове поле в сфері освіти, уряд, на жаль, вніс не зовсім досконалий законопроект, про це свідчать численні зауваження науково-експертного управління.
 1	Шановний	шановний	ADJ	ADJ	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	пане	пан	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	20	vocative	_	_
-3	Голово	голова	NOUN	PROPN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+3	Голово	голова	NOUN	PROPN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	2	flat	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	6	punct	_	_
 5	шановні	шановний	ADJ	ADJ	Case=Voc|Degree=Pos|Number=Plur	6	amod	_	_
 6	колеги	колега	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Fem,Masc|Number=Plur	2	conj	_	SpaceAfter=No
@@ -9333,9 +9331,9 @@
 8	удосконалюючи	удосконалювати	VERB	VERB	Aspect=Imp|Tense=Pres|VerbForm=Conv	20	advcl	_	_
 9	правове	правовий	ADJ	ADJ	Case=Acc|Gender=Neut|Number=Sing	10	amod	_	_
 10	поле	поле	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
-11	в	в	ADP	ADP	Case=Loc	12	case	_	_
-12	сфері	сфера	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
-13	освіти	освіта	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+11	в	в	ADP	ADP	Case=Loc|ExtPos=ADP	13	case	_	_
+12	сфері	сфера	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	fixed	_	_
+13	освіти	освіта	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	8	punct	_	_
 15	уряд	уряд	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
 16	,	,	PUNCT	PUNCT	_	18	punct	_	_
@@ -9387,7 +9385,7 @@
 # text = Зокрема, а що це таке "неякісні послуги з харчування" або що таке "безпечність освітнього середовища з використанням кіберпростору"?
 1	Зокрема	зокрема	ADV	ADV	_	9	parataxis	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	_
-3	а	а	PART	PART	_	9	discourse	_	_
+3	а	а	PART	PART	_	4	advmod:emph	_	_
 4	що	що	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Int	9	nsubj	_	_
 5	це	це	PRON	PRON	PronType=Dem	4	expl	_	_
 6	таке	такий	DET	DET	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
@@ -9415,7 +9413,7 @@
 1	Окремі	окремий	ADJ	ADJ	Case=Nom|Number=Plur	2	amod	_	_
 2	норми	норма	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
 3	закінчуються	закінчуватися	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Reflex=Yes|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	взагалі	взагалі	ADV	ADV	_	5	advmod	_	_
+4	взагалі	взагалі	ADV	ADV	_	5	advmod:emph	_	_
 5	неприпустимим	неприпустимий	ADJ	ADJ	Case=Ins|Gender=Masc|Number=Sing	8	amod	_	_
 6	для	для	ADP	ADP	Case=Gen	7	case	_	_
 7	закону	закон	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
@@ -9504,15 +9502,15 @@
 7	добре	добре	ADV	ADV	Degree=Pos	2	conj	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	11	punct	_	_
 9	але	але	CCONJ	CCONJ	_	11	cc	_	_
-10	ж	ж	PART	PART	_	11	discourse	_	_
+10	ж	ж	PART	PART	_	11	advmod:emph	_	_
 11	треба	треба	ADV	ADV	_	7	conj	_	_
 12	унормувати	унормувати	VERB	VERB	Aspect=Perf|VerbForm=Inf	11	csubj	_	_
 13	цю	цей	DET	DET	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
 14	вседозволеність	вседозволеність	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
-15	в	в	ADP	ADP	Case=Loc	16	case	_	_
-16	залежності	залежність	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
-17	від	від	ADP	ADP	Case=Gen	18	case	_	_
-18	статусу	статус	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+15	в	в	ADP	ADP	Case=Loc|ExtPos=ADP	18	case	_	_
+16	залежності	залежність	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	fixed	_	_
+17	від	від	ADP	ADP	Case=Gen	15	fixed	_	_
+18	статусу	статус	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
 19	закладу	заклад	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
 20	і	і	CCONJ	CCONJ	_	22	cc	_	_
 21	це	це	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	22	nsubj	_	_
@@ -9545,13 +9543,13 @@
 
 # sent_id = ParlaMint-UA_2022-01-25-m0.u248.p6.lang1.s2
 # text = Так ні, друзі, це ж норми Конституції, а не закону, який і покликаний чітко визначити адресного виконавця, а саме орган, центральний орган виконавчої влади або органи місцевого самоврядування.
-1	Так	так	PART	INTJ	_	2	discourse	_	_
+1	Так	так	PART	INTJ	_	2	advmod:emph	_	_
 2	ні	ні	PART	PART	_	8	parataxis	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	4	punct	_	_
 4	друзі	друг	NOUN	NOUN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	vocative	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	4	punct	_	_
 6	це	це	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	_
-7	ж	ж	PART	PART	_	8	discourse	_	_
+7	ж	ж	PART	PART	_	8	advmod:emph	_	_
 8	норми	норма	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
 9	Конституції	конституція	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	13	punct	_	_
@@ -9588,9 +9586,9 @@
 3	в	в	ADP	ADP	Case=Loc	5	case	_	_
 4	першому	перший	ADJ	ADJ	Case=Loc|Gender=Neut|Number=Sing|NumType=Ord	5	amod	_	_
 5	читанні	читання	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
-6	з	з	ADP	ADP	Case=Ins	7	case	_	_
-7	урахуванням	урахування	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
-8	того	те	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	7	nmod	_	SpaceAfter=No
+6	з	з	ADP	ADP	Case=Ins|ExtPos=ADP	8	case	_	_
+7	урахуванням	урахування	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	fixed	_	_
+8	того	те	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	2	obl	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	13	punct	_	_
 10	що	що	SCONJ	SCONJ	_	13	mark	_	_
 11	ці	цей	DET	DET	Animacy=Inan|Case=Acc|Number=Plur|PronType=Dem	12	det	_	_
@@ -9725,7 +9723,7 @@
 7	,	,	PUNCT	PUNCT	_	6	punct	_	_
 8	ми	ми	PRON	PRON	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
 9	давно	давно	ADV	ADV	Degree=Pos	11	advmod	_	_
-10	уже	уже	ADV	ADV	_	9	advmod	_	_
+10	уже	уже	ADV	ADV	_	9	advmod:emph	_	_
 11	чекаємо	чекати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	від	від	ADP	ADP	Case=Gen	13	case	_	_
 13	уряду	уряд	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
@@ -9995,7 +9993,7 @@
 1	Ви	ви	PRON	PRON	Animacy=Anim|Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
 2	знаєте	знати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	10	punct	_	_
-4	от	от	PART	PART	_	10	discourse	_	_
+4	от	от	PART	PART	_	5	advmod:emph	_	_
 5	назва	назва	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 6	цього	цей	DET	DET	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	закону	закон	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
@@ -10191,10 +10189,10 @@
 10	в	в	ADP	ADP	Case=Loc	12	case	_	_
 11	першому	перший	ADJ	ADJ	Case=Loc|Gender=Neut|Number=Sing|NumType=Ord	12	amod	_	_
 12	читанні	читання	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
-13	,	,	PUNCT	PUNCT	_	15	punct	_	_
-14	з	з	ADP	ADP	Case=Ins	15	case	_	_
-15	урахуванням	урахування	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	_
-16	того	те	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	15	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	16	punct	_	_
+14	з	з	ADP	ADP	Case=Ins|ExtPos=ADP	16	case	_	_
+15	урахуванням	урахування	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	fixed	_	_
+16	того	те	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	7	obl	_	SpaceAfter=No
 17	,	,	PUNCT	PUNCT	_	21	punct	_	_
 18	що	що	SCONJ	SCONJ	_	21	mark	_	_
 19	ми	ми	PRON	PRON	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
@@ -10254,7 +10252,7 @@
 21	які	який	DET	DET	Case=Nom|Number=Plur|PronType=Rel	25	nsubj	_	_
 22	реально	реально	ADV	ADV	Degree=Pos	25	advmod	_	_
 23	позашкільній	позашкільний	ADJ	ADJ	Case=Dat|Gender=Fem|Number=Sing	24	amod	_	_
-24	освіті	освіта	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	25	iobj	_	_
+24	освіті	освіта	NOUN	NOUN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	25	obj	_	_
 25	допоможуть	допомогти	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
 26	,	,	PUNCT	PUNCT	_	30	punct	_	_
 27	а	а	CCONJ	CCONJ	_	30	cc	_	_
@@ -10754,7 +10752,7 @@
 # text = Шановний пане Голово, шановні колеги!
 1	Шановний	шановний	ADJ	ADJ	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 2	пане	пан	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	0	root	_	_
-3	Голово	голова	NOUN	PROPN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+3	Голово	голова	NOUN	PROPN	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	2	flat	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	6	punct	_	_
 5	шановні	шановний	ADJ	ADJ	Case=Voc|Degree=Pos|Number=Plur	6	amod	_	_
 6	колеги	колега	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Fem,Masc|Number=Plur	2	conj	_	SpaceAfter=No
@@ -10799,9 +10797,9 @@
 9	основної	основний	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	10	amod	_	_
 10	відповіді	відповідь	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	16	punct	_	_
-12	а	а	CCONJ	CCONJ	_	16	discourse	_	_
+12	а	а	CCONJ	CCONJ	_	16	advmod:emph	_	_
 13	як	як	ADV	ADV	PronType=Int	16	advmod	_	_
-14	же	же	PART	PART	_	13	discourse	_	_
+14	же	же	PART	PART	_	13	advmod:emph	_	_
 15	буде	бути	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux:pass	_	_
 16	фінансуватися	фінансуватися	VERB	VERB	Aspect=Imp|Reflex=Yes|VerbForm=Inf	10	acl	_	_
 17	позашкільна	позашкільний	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	18	amod	_	_
@@ -10832,15 +10830,15 @@
 1	На	на	ADP	ADP	Case=Acc	2	case	_	_
 2	жаль	жаль	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	parataxis	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	2	punct	_	_
-4	в	в	ADP	ADP	Case=Loc	5	case	_	_
-5	процесі	процес	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
-6	реалізації	реалізація	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+4	в	в	ADP	ADP	Case=Loc|ExtPos=ADP	6	case	_	_
+5	процесі	процес	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	fixed	_	_
+6	реалізації	реалізація	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
 7	реформи	реформа	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
 8	так	так	ADV	ADV	ExtPos=ADJ|PronType=Dem	10	amod	_	_
 9	званої	званий	ADJ	ADJ	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	8	fixed	_	_
 10	децентралізації	децентралізація	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 11	ми	ми	PRON	PRON	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
-12	просто	просто	PART	PART	_	13	discourse	_	_
+12	просто	просто	PART	PART	_	13	advmod:emph	_	_
 13	забули	забути	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
 14	про	про	ADP	ADP	Case=Acc	15	case	_	_
 15	дітей	дитина	NOUN	NOUN	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	13	obl	_	_
@@ -10853,9 +10851,9 @@
 22	,	,	PUNCT	PUNCT	_	24	punct	_	_
 23	які	який	DET	DET	Case=Nom|Number=Plur|PronType=Rel	24	nsubj	_	_
 24	відбуваються	відбуватися	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Reflex=Yes|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
-25	в	в	ADP	ADP	Case=Loc	26	case	_	_
-26	процесі	процес	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	obl	_	_
-27	формування	формування	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	SpaceAfter=No
+25	в	в	ADP	ADP	Case=Loc|ExtPos=ADP	27	case	_	_
+26	процесі	процес	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	fixed	_	_
+27	формування	формування	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No
 28	,	,	PUNCT	PUNCT	_	29	punct	_	_
 29	існування	існування	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	conj	_	_
 30	і	і	CCONJ	CCONJ	_	31	cc	_	_
@@ -11142,7 +11140,7 @@
 # text = Колеги, а що ми зробили, щоб не закривали позашкілля в громадах?
 1	Колеги	колега	NOUN	NOUN	Animacy=Anim|Case=Voc|Gender=Fem,Masc|Number=Plur	6	vocative	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	_
-3	а	а	CCONJ	CCONJ	_	6	discourse	_	_
+3	а	а	CCONJ	CCONJ	_	6	advmod:emph	_	_
 4	що	що	PRON	PRON	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Int	6	obj	_	_
 5	ми	ми	PRON	PRON	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 6	зробили	зробити	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -11159,7 +11157,7 @@
 # text = Насправді, от я дивлюся, що крім...
 1	Насправді	насправді	ADV	ADV	_	5	parataxis	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	_
-3	от	от	PART	PART	_	5	discourse	_	_
+3	от	от	PART	PART	_	5	expl	_	_
 4	я	я	PRON	PRON	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	дивлюся	дивитися	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Reflex=Yes|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	8	punct	_	_
@@ -11209,7 +11207,7 @@
 38	не	не	PART	PART	Polarity=Neg	39	advmod:neg	_	_
 39	бачу	бачити	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	conj	_	SpaceAfter=No
 40	,	,	PUNCT	PUNCT	_	44	punct	_	_
-41	а	а	CCONJ	CCONJ	_	44	discourse	_	_
+41	а	а	CCONJ	CCONJ	_	44	advmod:emph	_	_
 42	що	що	PRON	PRON	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Int	44	obj	_	_
 43	ми	ми	PRON	PRON	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	44	nsubj	_	_
 44	робимо	робити	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	39	ccomp	_	_
@@ -11774,7 +11772,7 @@
 8	є	бути	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 9	проблемою	проблема	NOUN	NOUN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
 10	не	не	PART	PART	Polarity=Neg	14	advmod:neg	_	_
-11	просто	просто	PART	PART	_	14	discourse	_	_
+11	просто	просто	PART	PART	_	14	advmod:emph	_	_
 12	для	для	ADP	ADP	Case=Gen	14	case	_	_
 13	української	український	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	14	amod	_	_
 14	освіти	освіта	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
@@ -11793,7 +11791,7 @@
 27	країн	країна	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	PUNCT	_	33	punct	_	_
 29	яка	який	DET	DET	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	33	nsubj	_	_
-30	чи	чи	PART	PART	ExtPos=PART	32	discourse	_	_
+30	чи	чи	PART	PART	ExtPos=PART	32	advmod:emph	_	_
 31	не	не	PART	PART	Polarity=Neg	30	fixed	_	_
 32	найчастіше	найчастіше	ADV	ADV	Degree=Sup	33	advmod	_	_
 33	продукує	продукувати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
@@ -11808,7 +11806,7 @@
 # lang = uk
 # sent_id = ParlaMint-UA_2022-01-25-m0.u264.p3.lang1.s1
 # text = Ось це "дисертація під ключ" – це є порушення, "курсова на замовлення" – це порушення.
-1	Ось	ось	PART	PART	_	2	discourse	_	_
+1	Ось	ось	PART	PART	_	2	expl	_	_
 2	це	це	PRON	PRON	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	_	_
 3	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
 4	дисертація	дисертація	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
@@ -11906,7 +11904,7 @@
 14	того	те	PRON	PRON	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	8	obl	_	SpaceAfter=No
 15	,	,	PUNCT	PUNCT	_	20	punct	_	_
 16	аби	аби	SCONJ	SCONJ	_	20	mark	_	_
-17	вже	вже	ADV	ADV	_	20	advmod	_	_
+17	вже	вже	ADV	ADV	_	20	advmod:emph	_	_
 18	в	в	ADP	ADP	Case=Loc	19	case	_	_
 19	подальшому	подальше	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
 20	розвивати	розвивати	VERB	VERB	Aspect=Imp|VerbForm=Inf	14	acl	_	_
@@ -11931,7 +11929,7 @@
 14	за	за	ADP	ADP	Case=Acc	16	case	_	_
 15	це	цей	DET	DET	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	16	det	_	_
 16	правопорушення	правопорушення	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obl	_	_
-17	в	в	ADP	ADP	Case=Acc|ExtPos=ADV	13	discourse	_	_
+17	в	в	ADP	ADP	Case=Acc|ExtPos=ADV	13	advmod:emph	_	_
 18	першу	перший	ADJ	ADJ	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	17	fixed	_	_
 19	чергу	черга	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	fixed	_	_
 20	компанії	компанія	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
@@ -12110,7 +12108,7 @@
 4	наш	наш	DET	DET	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
 5	український	український	ADJ	ADJ	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
 6	парламент	парламент	NOUN	NOUN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
-7	чи	чи	PART	PART	ExtPos=PART	9	discourse	_	_
+7	чи	чи	PART	PART	ExtPos=PART	9	advmod:emph	_	_
 8	не	не	PART	PART	Polarity=Neg	7	fixed	_	_
 9	найперший	найперший	ADJ	ADJ	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	0	root	_	_
 10	в	в	ADP	ADP	Case=Loc	11	case	_	_
@@ -12212,7 +12210,7 @@
 3	закликаємо	закликати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	колег	колега	NOUN	NOUN	Animacy=Anim|Case=Acc|Gender=Fem,Masc|Number=Plur	3	obj	_	_
 5	підтримати	підтримати	VERB	VERB	Aspect=Perf|VerbForm=Inf	3	xcomp	_	_
-6	саме	саме	PART	PART	_	8	discourse	_	_
+6	саме	саме	PART	PART	_	8	advmod:emph	_	_
 7	наш	наш	DET	DET	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	_	_
 8	законопроект	законопроект	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	12	punct	_	_
@@ -12317,9 +12315,9 @@
 2	надається	надаватися	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Reflex=Yes|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	голові	голова	NOUN	NOUN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	_
 4	Комітету	комітет	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
-5	з	з	ADP	ADP	Case=Gen	6	case	_	_
-6	питань	питання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
-7	освіти	освіта	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+5	з	з	ADP	ADP	Case=Gen|ExtPos=ADP	7	case	_	_
+6	питань	питання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	fixed	_	_
+7	освіти	освіта	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	9	punct	_	_
 9	науки	наука	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	conj	_	_
 10	та	та	CCONJ	CCONJ	_	11	cc	_	_
@@ -12360,7 +12358,7 @@
 3	потрібний	потрібний	ADJ	ADJ	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
 4	і	і	CCONJ	CCONJ	_	7	cc	_	_
 5	він	він	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-6	тільки	тільки	PART	PART	_	7	advmod	_	_
+6	тільки	тільки	PART	PART	_	7	advmod:emph	_	_
 7	починає	починати	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 8	регулювати	регулювати	VERB	VERB	Aspect=Imp|VerbForm=Inf	7	xcomp	_	_
 9	сферу	сфера	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
@@ -12644,9 +12642,9 @@
 9	Верховної	верховний	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	10	amod	_	_
 10	Ради	рада	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
 11	України	Україна	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	10	nmod	_	_
-12	з	з	ADP	ADP	Case=Gen	13	case	_	_
-13	питань	питання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
-14	освіти	освіта	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+12	з	з	ADP	ADP	Case=Gen|ExtPos=ADP	14	case	_	_
+13	питань	питання	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	fixed	_	_
+14	освіти	освіта	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	PUNCT	_	16	punct	_	_
 16	науки	наука	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	conj	_	_
 17	та	та	CCONJ	CCONJ	_	18	cc	_	_
@@ -12849,7 +12847,7 @@
 2	мені	я	PRON	PRON	Animacy=Anim|Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	NER=O
 3	принесуть	принести	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	NER=O
 4	текстовку	текстовок	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obj	_	NER=O
-5	вже	вже	ADV	ADV	_	6	advmod	_	NER=O
+5	вже	вже	ADV	ADV	_	6	advmod:emph	_	NER=O
 6	кінцеву	кінцевий	ADJ	ADJ	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	NER=O|SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	9	punct	_	NER=O
 8	яка	який	DET	DET	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	9	nsubj	_	NER=O
@@ -12890,9 +12888,9 @@
 22	протягом	протягом	ADP	ADP	_	24	case	_	NER=O
 23	двох	два	NUM	NUM	Case=Gen|Gender=Masc	24	nummod	_	NER=O
 24	днів	день	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	NER=O
-25	з	з	ADP	ADP	_	26	case	_	NER=O
-26	моменту	момент	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	NER=O
-27	звернення	звернення	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	NER=O
+25	з	з	ADP	ADP	Case=Gen|ExtPos=ADP	27	case	_	NER=O
+26	моменту	момент	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	fixed	_	NER=O
+27	звернення	звернення	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	NER=O
 28	Президента	президент	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	NER=B-MISC
 29	України	Україна	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	28	nmod	_	NER=I-MISC
 30	Указу	указ	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	NER=I-MISC
@@ -12900,7 +12898,7 @@
 32	введення	введення	NOUN	NOUN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	30	nmod	_	NER=I-MISC
 33	воєнного	воєнний	ADJ	ADJ	Case=Gen|Gender=Masc|Number=Sing	34	amod	_	NER=I-MISC
 34	стану	стан	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	NER=I-MISC
-35	в	в	ADP	ADP	_	36	case	_	NER=O
+35	в	в	ADP	ADP	Case=Loc	36	case	_	NER=O
 36	Україні	Україна	PROPN	PROPN	Animacy=Inan|Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	32	nmod	_	NER=B-LOC
 37	або	або	CCONJ	CCONJ	_	41	cc	_	NER=O
 38	в	в	ADP	ADP	_	41	case	_	NER=O
@@ -12943,9 +12941,9 @@
 28	окремих	окремий	ADJ	ADJ	Case=Loc|Number=Plur	30	amod	_	NER=O
 29	її	її	DET	DET	Case=Loc|InflClass=Ind|Number=Plur|Poss=Yes|PronType=Prs	30	det	_	NER=O|Uninflect=Yes
 30	місцевостях	місцевість	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	25	conj	_	NER=O
-31	у	у	ADP	ADP	_	32	case	_	NER=O
-32	разі	раз	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	NER=O
-33	загрози	загроза	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	NER=O
+31	у	у	ADP	ADP	Case=Loc|ExtPos=ADP	33	case	_	NER=O
+32	разі	раз	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	31	fixed	_	NER=O
+33	загрози	загроза	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	NER=O
 34	нападу	напад	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	NER=O|SpaceAfter=No
 35	,	,	PUNCT	PUNCT	_	36	punct	_	NER=O
 36	небезпеки	небезпека	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	conj	_	NER=O
@@ -13227,9 +13225,9 @@
 17	протягом	протягом	ADP	ADP	_	19	case	_	NER=O
 18	двох	два	NUM	NUM	Case=Gen|Gender=Masc	19	nummod	_	NER=O
 19	днів	день	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	NER=O
-20	з	з	ADP	ADP	_	21	case	_	NER=O
-21	моменту	момент	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	NER=O
-22	звернення	звернення	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	NER=O
+20	з	з	ADP	ADP	Case=Gen|ExtPos=ADP	22	case	_	NER=O
+21	моменту	момент	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	fixed	_	NER=O
+22	звернення	звернення	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	NER=O
 23	Президента	президент	NOUN	NOUN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	NER=B-PER
 24	України	Україна	PROPN	PROPN	Animacy=Inan|Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	23	nmod	_	NER=I-PER
 25	Указу	указ	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	NER=O
@@ -13279,9 +13277,9 @@
 27	окремих	окремий	ADJ	ADJ	Case=Loc|Number=Plur	29	amod	_	NER=O
 28	її	її	DET	DET	Case=Loc|InflClass=Ind|Number=Plur|Poss=Yes|PronType=Prs	29	det	_	NER=O|Uninflect=Yes
 29	місцевостях	місцевість	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	24	conj	_	NER=O
-30	у	у	ADP	ADP	_	31	case	_	NER=O
-31	разі	раз	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	NER=O
-32	загрози	загроза	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	NER=O
+30	у	у	ADP	ADP	Case=Loc|ExtPos=ADP	32	case	_	NER=O
+31	разі	раз	NOUN	NOUN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	30	fixed	_	NER=O
+32	загрози	загроза	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	NER=O
 33	нападу	напад	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	NER=O|SpaceAfter=No
 34	,	,	PUNCT	PUNCT	_	35	punct	_	NER=O
 35	небезпеки	небезпека	NOUN	NOUN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	conj	_	NER=O
