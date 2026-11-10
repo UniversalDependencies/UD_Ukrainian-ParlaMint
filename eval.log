@@ -1,17 +1,17 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Ukrainian-ParlaMint:
-commit d63977a8814c31b902721e21576c5dac2a84484b
-Merge: 556022e dfa85db
+commit d8621e049c5dbd25e914615def985ad76db35dc6
+Merge: 7d3fcb7 ec3f6fa
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'uk_parlamint'
 Language code (from CoNLL-U file name) = 'uk'
 Found the following data files: uk_parlamint-ud-dev.conllu, uk_parlamint-ud-test.conllu, uk_parlamint-ud-train.conllu
-Size: counted 109166 of 109166 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.38573931903664.
+Size: counted 109165 of 109165 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.38572099823016.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -19,7 +19,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 79782 out of 109166 total words have one or more features.
+Features: 79791 out of 109165 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
@@ -29,15 +29,18 @@ Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang uk --max-err=10 UD_Ukrainian-ParlaMint/uk_parlamint-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang uk --max-err=10 UD_Ukrainian-ParlaMint/uk_parlamint-ud-train.conllu
+[Line 22543 Sent ParlaMint-UA_2014-03-04-m0.u114.p13.lang1.s1]: [L3 WARNING pron-det-without-prontype] The word 'багато' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 39351 Sent ParlaMint-UA_2003-10-14-m0.u47.p2.lang1.s8]: [L3 WARNING pron-det-without-prontype] The word 'багато' is tagged 'DET' but it lacks the 'PronType' feature
+Warnings: 2
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{genres}=0.166666666666667) = 0.0185185185185185
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
-(weight=0.37037037037037) * (score{size}=0.679362465806666) = 0.251615728076543
+(weight=0.37037037037037) * (score{size}=0.679361139702473) = 0.251615236926842
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=0.941176470588235) = 0.104575163398693
 (weight=0.111111111111111) * (score{udeprels}=0.945945945945946) = 0.105105105105105
-(TOTAL score=0.776110811395156) * (availability=1) * (validity=1) = 0.776110811395156
+(TOTAL score=0.776110320245455) * (availability=1) * (validity=1) = 0.776110320245455
 STARS = 4
-UD_Ukrainian-ParlaMint	0.776110811395156	4
+UD_Ukrainian-ParlaMint	0.776110320245455	4
